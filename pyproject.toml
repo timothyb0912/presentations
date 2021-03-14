@@ -1,0 +1,118 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "presentations"
+author = "Timothy Brathwaite"
+author-email = "timothyb0912@gmail.com"
+home-page = "https://github.com/timothyb0912/presentations"
+description-file = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3 :: Only",
+]
+requires-python = ">=3.6"
+requires = [
+]
+license =  "BSD-3-Clause"
+
+[tool.flit.sdist]
+exclude = ["src/presentations/newsfragments/"]
+
+[tool.towncrier]
+package = "presentations"
+package_dir = "src/"
+filename = "CHANGELOG.rst"
+title_format = "{name} {version} ({project_date})"
+wrap = true  # Wrap text to 79 characters
+all_bullets = true
+
+    [[tool.towncrier.type]]
+    directory = "added"
+    name = "Added new features"
+    showcontent = true
+
+    [[tool.towncrier.type]]
+    directory = "changed"
+    name = "Changed existing functionality"
+    showcontent = true
+
+    [[tool.towncrier.type]]
+    directory = "deprecated"
+    name = "Marked for removal"
+    showcontent = true
+
+    [[tool.towncrier.type]]
+    directory = "removed"
+    name = "Removed from package"
+    showcontent = true
+
+    [[tool.towncrier.type]]
+    directory = "fixed"
+    name = "Bug fixes"
+    showcontent = true
+
+    [[tool.towncrier.type]]
+    directory = "security"
+    name = "Patched vulnerabilities"
+    showcontent = true
+
+    [[tool.towncrier.type]]
+    directory = "doc"
+    name = "Improved Documentation"
+    showcontent = true
+
+    [[tool.towncrier.type]]
+    directory = "trivial"
+    name = "Trivial/Internal Changes"
+    showcontent = true
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+isolated_build = True
+envlist = py36, py37, py38
+
+[testenv]
+deps = pytest >= 3.3.0
+commands =
+    make install
+    pytest
+"""
+
+[tool.black]
+line-length = 79
+exclude = '''
+
+(
+  /(
+      \.eggs         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | \.github
+    | _build
+    | buck-out
+    | build
+    | dist
+  )/
+)
+'''
+
+[tool.bumpver]
+current_version = "2021.1000.11"
+version_pattern = "YYYY.BUILD.UU"
+commit_message = "bump version {old_version} -> {new_version}"
+commit = true
+tag = false
+push = false
+
+[tool.bumpver.file_patterns]
+"src/presentations/__init__.py" = [
+    '__version__ = "{version}"',
+]

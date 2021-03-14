@@ -1,0 +1,34 @@
+---
+# Project Information
+site_name: presentations
+site_author: Timothy Brathwaite
+site_description: My public presentations
+
+# Repository information
+repo_name: timothyb0912/presentations
+repo_url: https://github.com/timothyb0912/presentations
+edit_uri: ""
+
+# Copyright
+copyright: Copyright &copy; 2021 Timothy Brathwaite
+
+# Configuration
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.instant
+    - navigation.tabs
+  language: en
+
+# Footer
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/timothyb0912
+      name: timothyb0912 on GitHub
+
+# Page tree
+nav:
+  - Home: index.md
