@@ -431,6 +431,12 @@ use a support that includes your counterfactual scenarios.
 
 <center><img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/learning-monotonic-neural-networks.png" height="200" border="none"></img></center>
 
+<font size=1 color="grey">
+<center>
+Liu, Xingchao, Xing Han, Na Zhang, and Qiang Liu. "Certified Monotonic Neural Networks." arXiv preprint arXiv:2011.10219 (2020).
+</center>
+</font>
+
 <!-- LaTexIt
 \DeclareMathOperator*{\argmin}{argmin}
 \hat{\beta} &= \argmin_{\beta} \left \lbrace - \textrm{LogLikelihood} \left( Y; X, \beta \right) +
@@ -523,9 +529,8 @@ E.g. San Francisco Bay crossings likely confound travel cost and travel time, ev
 
 <center><img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/causal_graph_permutation_testing.png" style="height: 300px; border: none;"></img></center>
 
-<font size=1>For more information, see<br>
 
-> Brathwaite, Timothy, and Obeid, Hassan, and Bouzaghrane, Mohamed Amine (2021). "Causal Graphs in Choice Modelling: The What, Why, and How." Forthcoming in Handbook of Choice Modelling, 2nd Edition. https://github.com/hassan-obeid/tr_b_causal_2020/blob/master/article/main.pdf.
+<font color="grey" size=1> Brathwaite, Timothy, and Obeid, Hassan, and Bouzaghrane, Mohamed Amine (2021). "Causal Graphs in Choice Modelling: The What, Why, and How." In Preparation. https://github.com/hassan-obeid/tr_b_causal_2020/blob/master/article/main.pdf.
 </font>
 ---
 
