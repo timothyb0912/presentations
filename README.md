@@ -7,7 +7,7 @@ My public presentations.
 
 This repository houses the text and images for my public presentations.
 
-🛑✋🏾STOP HERE. REMAINDER OF DOCUMENT IN-PROGRESS.
+🛑✋🏾STOP HERE. REMAINDER OF README IN-PROGRESS.
 
 ---
 
