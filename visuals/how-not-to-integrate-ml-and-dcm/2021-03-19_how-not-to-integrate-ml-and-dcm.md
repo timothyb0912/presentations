@@ -228,10 +228,9 @@ When model training doesn't work out how you expected.
 <center><img src="https://media1.tenor.com/images/b2c1c2c3960cc95b0e084eaecef9d2cc/tenor.gif" style="height: 200px;"></img></center>
 
 <!-- Include links, preferably non-paywalled for each of these -->
-- bad initial values
-- cyclic parameter updates
-- miniscule-magnitude parameter updates
-- exploding-magnitude parameter updates
+- [bad initial values](https://arxiv.org/abs/1511.06422)
+- [miniscule-magnitude](http://www.bioinf.jku.at/publications/older/2304.pdf) parameter updates
+- [exploding-magnitude](http://proceedings.mlr.press/v28/pascanu13.pdf) parameter updates
 
 ---
 
@@ -262,7 +261,8 @@ Can you make your fake data training fail the way real training fails?
 
 ## Overfitting: definition
 
-Our in-sample model performance is much better than our out-of-sample model performance.
+Our in-sample model performance is much better than  
+our out-of-sample model performance.
 
 <center><img src="https://static.thenounproject.com/png/837530-200.png" style="height: 200px; border: none;"></img></center>
 
@@ -278,7 +278,8 @@ Cross-validation / resampling are a general solution for identifying overfitting
 
 ## Overfitting: structural considerations
 
-Hierarchical or otherwise non-exchangeable data (e.g. time series) require special care during resampling.
+Hierarchical or otherwise non-exchangeable data (e.g. time series)  
+require special care during resampling.
 
 <center><img src="https://static.thenounproject.com/png/3601295-200.png" style="height: 200px; border: none;"></img> <img src="https://static.thenounproject.com/png/995090-200.png" style="height: 200px; border: none;"></img></center>
 
@@ -398,7 +399,7 @@ Sometimes, the needed likelihood edit is adding alternative specific constants.
 
 ## Underfitting: counterfactual prediction -> prior editing
 
-what do you know the model should the model do for given inputs?<br>
+What do you know the model should the model do for given inputs?<br>
 
 <!-- - Human-based behavior specification = counterfactual regularization
 - Algorithm-based behavior specification = knowledge distillation -->
@@ -425,7 +426,7 @@ Ideally, we want ML predictive ability + behavioral realism.
 ## Underfitting: counterfactual regularization as prior editing
 
 
-When regularizing for expected properties (e.g. monotonicity),
+When regularizing for expected properties (e.g. monotonicity),  
 use a support that includes your counterfactual scenarios.
 
 <center><img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/learning-monotonic-neural-networks.png" height="200" border="none"></img></center>
@@ -437,7 +438,7 @@ use a support that includes your counterfactual scenarios.
 \textrm{where } \textrm{Reg} \left( \cdot \right) &= \lambda \sum _{i=1} ^{N} \left[ P \left( Y \mid X, \beta \right) - P_{\textrm{Random\_Forest} \left( Y \mid X \right)} \right]^2 -->
 
 See also [causal regularization](https://arxiv.org/pdf/1906.12179.pdf)
-and [detecting non-causal artifacts](http://proceedings.mlr.press/v80/janzing18a/janzing18a.pdf)
+and [detecting non-causal artifacts](http://proceedings.mlr.press/v80/janzing18a/janzing18a.pdf)  
 for further variations on the theme of counterfactual regularization.
 
 ---
