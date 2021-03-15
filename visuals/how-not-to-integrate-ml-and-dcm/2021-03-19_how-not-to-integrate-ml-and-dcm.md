@@ -582,7 +582,7 @@ Bound the effects on one's inferences
 
 <center><img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/discrete-choice-ml-integration-error-recap.png" style="height: 300px; border: none;"></img></center>
 
-Any one of these issues can tank one's efforts to integrate ML and Discrete Choice.  
+Any of these issues can tank your efforts to integrate ML and Discrete Choice.  
 For a chance at successful integration "simply" avoid all of them. 🙂
 
 
