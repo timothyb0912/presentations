@@ -14,6 +14,8 @@ appnope==0.1.2
     #   ipython
 argon2-cffi==20.1.0
     # via notebook
+arrow==1.0.3
+    # via topydo
 async-generator==1.10
     # via nbclient
 attrs==20.3.0
@@ -281,7 +283,9 @@ pytest==6.2.2
     #   -r requirements.in
     #   pytest-cov
 python-dateutil==2.8.1
-    # via jupyter-client
+    # via
+    #   arrow
+    #   jupyter-client
 pytz==2021.1
     # via babel
 pyyaml==5.4.1
@@ -335,6 +339,8 @@ toml==0.10.2
     #   pytest
     #   towncrier
     #   tox
+topydo==0.14
+    # via -r requirements.in
 tornado==6.1
     # via
     #   ipykernel
@@ -363,7 +369,9 @@ traitlets==5.0.5
     #   nbformat
     #   notebook
 typing-extensions==3.7.4.3
-    # via anyio
+    # via
+    #   anyio
+    #   arrow
 urllib3==1.24.3
     # via requests
 virtualenv==20.4.2
