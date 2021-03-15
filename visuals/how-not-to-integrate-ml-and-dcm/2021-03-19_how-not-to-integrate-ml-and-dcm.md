@@ -129,8 +129,8 @@
 
 ## Slides -->
 
-# Integrating Machine Learning <br> and Discrete Choice
-## What Could Go Wrong?
+# When Machines Don't Learn
+## Common reasons for failed integrations between Machine Learning and Discrete Choice
 
 Timothy Brathwaite, PhD  
 March, 2021
