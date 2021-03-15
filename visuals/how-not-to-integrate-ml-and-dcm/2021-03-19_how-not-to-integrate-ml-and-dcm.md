@@ -428,7 +428,7 @@ Ideally, we want ML predictive ability + behavioral realism.
 When regularizing for expected properties (e.g. monotonicity),
 use a support that includes your counterfactual scenarios.
 
-<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/learning-monotonic-neural-networks.png" style="width: 200px, border: none;"></img>
+<center><img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/learning-monotonic-neural-networks.png" height="200" border="none"></img></center>
 
 <!-- LaTexIt
 \DeclareMathOperator*{\argmin}{argmin}
