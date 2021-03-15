@@ -1,18 +1,15 @@
 # presentations
 
-<YOUR_BADGES_GO_HERE>
-
-Short, 1-2 line project description.
+My public presentations.
 
 
 ## Description
 
-Longer project descriptions belong here.
+This repository houses the text and images for my public presentations.
 
-- What does this project do?
-- What problem(s) does this project solve?
-- Why is this project named as it is?
+🛑✋🏾STOP HERE. REMAINDER OF README IN-PROGRESS.
 
+---
 
 ## Installation
 

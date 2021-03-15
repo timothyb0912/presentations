@@ -1,6 +1,8 @@
 attrs
 bumpver
+cicero
 click
+importlib-metadata
 flit
 jupyterlab
 jupytext
@@ -12,6 +14,7 @@ pretend
 pyprojroot
 pytest
 pytest-cov
+topydo
 towncrier
 tox
 watermark
