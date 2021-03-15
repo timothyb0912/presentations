@@ -140,13 +140,22 @@ March, 2021
 
 ## What is it that we actually want to do?
 
+At a high level...
+
+| From | To |
+| --- | --- |
+| Killer robot<br> <img src="assets/robot-golem.png" style="height: 200px; border:none;"></img> | Pet robot<br> <img src="https://static.thenounproject.com/png/1450088-200.png" style="hieght: 200px; border:none;"></img>|
+
+---
+
+## What is it that we actually want to do?
+
 We want to map mathematical and algorithmic models  
 to a neat econometric story of human decision making.
 
 | From | To |
 | --- | --- |
-| Killer robot<br> <img src="./assets/robot-golem.png" style="height: 200px; border:none;"></img> | Pet robot<br> <img src="https://static.thenounproject.com/png/1450088-200.png" style="hieght: 200px; border:none;"></img>|
-| Neural Net Computational Graph <br> <img src="./assets/neural-net-computational-graph.png" style="height: 200px; border:none;"></img> | Random Utility Causal Graph <br> <img src="./assets/random-utility-graph.png" style="height: 200px; border:none;"></img> |
+| Neural Net Computational Graph <br> <img src="assets/neural-net-computational-graph.png" style="height: 200px; border:none;"></img> | Random Utility Causal Graph <br> <img src="assets/random-utility-graph.png" style="height: 200px; border:none;"></img> |
 
 ---
 
@@ -159,8 +168,7 @@ with credible explanations for outcomes via causal mechanisms.
 
 | From | To |
 | --- | --- |
-| Logistic Regression<br> <img src="./assets/logistic-regression-diagram.png" style="height: 200px; border:none;"></img> | Conditional Logit<br> <img src="./assets/conditional-logit-diagram.png" style="height: 200px; border:none;"></img>|
-
+| Logistic Regression<br> <img src="assets/logistic-regression-diagram.png" style="height: 200px; border:none;"></img> | Conditional Logit<br> <img src="assets/conditional-logit-diagram.png" style="height: 200px; border:none;"></img>|
 
 ---
 
@@ -181,7 +189,7 @@ Choice modellers are not using ML models (e.g. tree-based models) with their eco
 
 Why not?
 
-<img src="./assets/prediction-and-behavioral-analysis-of-travel-mode-choice.png" style="height: 400px; border: none;"></img>
+<img src="assets/prediction-and-behavioral-analysis-of-travel-mode-choice.png" style="height: 400px; border: none;"></img>
 
 ---
 
@@ -225,7 +233,7 @@ When model training doesn't work out how you expected.
 - Prior predictive checks
 (i.e., is your regularization harmful?)
 
-<img src="./assets/training-error-diagnostic-tools.png" style="height: 200px; border: none;"></img>
+<img src="assets/training-error-diagnostic-tools.png" style="height: 200px; border: none;"></img>
 
 ---
 
@@ -239,7 +247,7 @@ Can you make your fake data training fail the way real training fails?
 <img src="https://cdn.pixabay.com/photo/2010/12/06/22/soldiers-1002_1280.jpg" style="height: 200px; border: none;"></img>| <img src="https://static.thenounproject.com/png/1454957-200.png" style="height: 200px; border: none;"></img>|  
 | Real soldiers  | Toy soldiers  | -->
 
-<img src="./assets/fake-data-training-error-diagnosis.png" style="height: 400px; border: none;"></img>
+<img src="assets/fake-data-training-error-diagnosis.png" style="height: 400px; border: none;"></img>
 
 ---
 
@@ -279,7 +287,7 @@ Likelihood, prior, and/or posterior approximation family may be underfit, in any
 
 <!-- Image-description: Inverted triangle (point down) where the vertices are the words "likelihood" (top left), "prior" (top right), "posterior approximation" (bottom). The words will hopefully be in a word cloud with font that looks handwritten. [Example](https://commoncog.com/blog/content/images/2018/12/Paper.Commonplace.30--1--1.png) -->
 
-<img src="./assets/underfitting-contributors.png" style="height: 200px; border: none;"></img>
+<img src="assets/underfitting-contributors.png" style="height: 200px; border: none;"></img>
 
 ---
 
@@ -287,7 +295,7 @@ Likelihood, prior, and/or posterior approximation family may be underfit, in any
 
 Alter the likelihood, prior, or posterior approximation family.
 
-<img src="./assets/altering-underfitting-contributors.png" style="height: 200px; border: none;"></img>
+<img src="assets/altering-underfitting-contributors.png" style="height: 200px; border: none;"></img>
 
 ---
 
@@ -299,7 +307,7 @@ Simulate
 <!--
 Image-description: Simulation image from left side of [slide 10](https://docs.google.com/presentation/d/1NWLZ5rkqV0cUSQK75bFWxEsyoUEYEBvuDu1ImUkbl7k/edit#slide=id.g56f8ca2c38_0_252) -->
 
-<img src="./assets/simulate-from-model-draw-from-nature.png" style="height: 200px; border: none;"></img>
+<img src="assets/simulate-from-model-draw-from-nature.png" style="height: 200px; border: none;"></img>
 
 ---
 
@@ -309,7 +317,7 @@ Image-description: Simulation image from left side of [slide 10](https://docs.go
 
 <!-- Image-description: Full image from [slide 10](https://docs.google.com/presentation/d/1NWLZ5rkqV0cUSQK75bFWxEsyoUEYEBvuDu1ImUkbl7k/edit#slide=id.g56f8ca2c38_0_252) -->
 
-<img src="./assets/simulate-and-compare.png" style="height: 200px; border: none;"></img>
+<img src="assets/simulate-and-compare.png" style="height: 200px; border: none;"></img>
 
 ---
 
@@ -327,7 +335,7 @@ Display paper citation & talk through main relevant points:
 stated preferences for automobile purchases,  
 emphasizing the choice of electric vehicles. -->
 
-<img src="./assets/forecasting-new-product-penetration.png" style="height: 200px; border: none;"></img>
+<img src="assets/forecasting-new-product-penetration.png" style="height: 200px; border: none;"></img>
 
 <!-- Be sure to include complex functional forms -->
 
@@ -345,7 +353,7 @@ Explain **change** one slide.
 
 Image-description: Images from [slide 29](https://docs.google.com/presentation/d/1ycJ9hqwI35hW4Hp_uAtnoK8lEnDLUcDT5AtSR-i1Rws/edit#slide=id.g56f8ca2c38_0_548) -->
 
-<img src="./assets/check-yourself-suv-knot-example.png" style="height: 200px; border: none;"></img>
+<img src="assets/check-yourself-suv-knot-example.png" style="height: 200px; border: none;"></img>
 
 The relative price variable was re-specified as piecewise linear with a knot at 3 and interacted with body type and with fuel type.
 
@@ -362,7 +370,7 @@ Explain **setting** one slide.
 Image-description: Display paper citation & talk through main relevant points:  
 DeVries 2015 (see checking zoo) stated preferences for blood pressure medication -->
 
-<img src="./assets/role-of-age-in-blood-pressure-drug-prefeference.png" style="height: 200px; border: none;"></img>
+<img src="assets/role-of-age-in-blood-pressure-drug-prefeference.png" style="height: 200px; border: none;"></img>
 
 ---
 
@@ -372,7 +380,7 @@ Sometimes, the needed likelihood edit is adding alternative specific constants.
 
 | Missing ASCs <br> (Original) | All ASCs |
 | ---| ---|
-| <img src="./assets/2015_deVries_no-ASC.png" style="height: 200px; border: none;"></img> | <img src="./assets/2015_deVries_with-ASCs.png" style="height: 200px; border: none;"></img> |
+| <img src="assets/2015_deVries_no-ASC.png" style="height: 200px; border: none;"></img> | <img src="assets/2015_deVries_with-ASCs.png" style="height: 200px; border: none;"></img> |
 | Drug vs No-Drug  | Drug A vs Drug B vs No-Drug  |
 
 ---
@@ -409,7 +417,7 @@ Ideally, we want ML predictive ability + behavioral realism.
 When regularizing for expected properties (e.g. monotonicity),
 use a support that includes your counterfactual scenarios.
 
-<img src="./assets/learning-monotonic-neural-networks.png" style="height: 200px, border: none;"></img>
+<img src="assets/learning-monotonic-neural-networks.png" style="height: 200px, border: none;"></img>
 
 <!-- LaTexIt
 \DeclareMathOperator*{\argmin}{argmin}
@@ -433,7 +441,7 @@ Image-description: mixed logit wandering in a forest.
 Maybe headless person with "mixed logit as words?"
 Maybe "mixed logit on a shirt?"
 See perhaps https://www.blackillustrations.com/illustrations/the-great-outdoors-illustration-pack -->
-<img src="./assets/mixed-logit-sketch_Eunice-Poon.png" style="height: 200px; border: none"></img>
+<img src="assets/mixed-logit-sketch_Eunice-Poon.png" style="height: 200px; border: none"></img>
 
 ---
 
@@ -446,7 +454,7 @@ Could be the kernel as in random forest kernels. -->
 As an example, consider the following
 
 <!-- Image-description: Show image from [here](https://docs.google.com/presentation/d/1ycJ9hqwI35hW4Hp_uAtnoK8lEnDLUcDT5AtSR-i1Rws/edit#slide=id.g593527d002_0_0), replacing P_empirical with P_forest. Regenerate the equations with latexit. -->
-<img src="./assets/random-forest-regularization.png" style="height: 100px; border: none;"></img>
+<img src="assets/random-forest-regularization.png" style="height: 100px; border: none;"></img>
 
 ---
 
@@ -461,7 +469,7 @@ Image-description: two-panel image w/ left-side showing normal distribution + eq
 | Gumbel | Normal |
 | --- | --- |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Gumbel-Density.svg/1920px-Gumbel-Density.svg.png" style="height: 100px; border: none;"></img> | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Normal_Distribution_PDF.svg/440px-Normal_Distribution_PDF.svg.png" style="height: 100px; border: none;"></img> |
-|<img src="./assets/gumbel-density.png" style="height: 75px; border: none;"></img>   |  <img src="./assets/normal-density.png" style="height: 75px; border: none;"></img>  |
+|<img src="assets/gumbel-density.png" style="height: 75px; border: none;"></img>   |  <img src="assets/normal-density.png" style="height: 75px; border: none;"></img>  |
 
 
 ---
@@ -471,7 +479,7 @@ Image-description: two-panel image w/ left-side showing normal distribution + eq
 When modelling, ignoring one's data generating process **potentially** causes poor predictions.  
 When unobserved confounding is present, one's usual likelihood [is wrong](https://github.com/timothyb0912/ci_for_prediction/blob/master/article/modeling_unmeasured_confounding.pdf).
 
-<img src="./assets/discriminative-confounding.png" style="height: 200px; border: none;"></img>
+<img src="assets/discriminative-confounding.png" style="height: 200px; border: none;"></img>
 
 ---
 
@@ -481,7 +489,7 @@ When unobserved confounding is present, one's usual likelihood [is wrong](https:
 
 Imagine a mode choice model with the following, hypothesized causal graph.
 
-<img src="./assets/drive_alone_utility_example.png" style="height: 200px; border: none;"></img>
+<img src="assets/drive_alone_utility_example.png" style="height: 200px; border: none;"></img>
 
 This graph implies travel time is independent of travel cost, given travel distance.
 
@@ -494,7 +502,7 @@ Failed independence tests in one's causal graph may come from unobserved confoun
 
 E.g. San Francisco Bay crossings likely confound travel cost and travel time, even after controlling for travel distance.
 
-<img src="./assets/causal_graph_permutation_testing.png" style="height: 200px; border: none;"></img>
+<img src="assets/causal_graph_permutation_testing.png" style="height: 200px; border: none;"></img>
 
 <font size=1>For more information, see
 > Brathwaite, Timothy, and Obeid, Hassan, and Bouzaghrane, Mohamed Amine (2021). "Causal Graphs in Choice Modelling: The What, Why, and How." Forthcoming in Handbook of Choice Modelling, 2nd Edition. https://github.com/hassan-obeid/tr_b_causal_2020/blob/master/article/main.pdf.
@@ -509,7 +517,7 @@ Identified relationships between either of the following variable pairs indicate
 
 | negative control outcome (N) <br>+ real exposure (A) | negative control exposure (B) <br>+ real outcome (Y) |
 | --- | --- |
-| <img src="./assets/negative_control_outcome.png" style="height: 200px; border: none;"></img> | <img src="./assets/negative_control_exposure.png" style="height: 200px; border: none;"></img> |
+| <img src="assets/negative_control_outcome.png" style="height: 200px; border: none;"></img> | <img src="assets/negative_control_exposure.png" style="height: 200px; border: none;"></img> |
 
 
 See [here](http://www.ph.ucla.edu/epi/faculty/greenland/Epi204/Negative_Controls.Epidemiol2010.pdf) and [here](https://arxiv.org/pdf/2009.05641.pdf) for more information.
@@ -554,7 +562,7 @@ Bound the effects on one's inferences
 ## Recap
 
 
-<img src="./assets/discrete-choice-ml-integration-error-recap.png" style="height: 200px; border: none;"></img>
+<img src="assets/discrete-choice-ml-integration-error-recap.png" style="height: 200px; border: none;"></img>
 
 Any one of these issues can tank one's efforts to integrate ML and Discrete Choice.  
 For a chance at successful integration "simply" avoid all of them. 🙂
@@ -566,6 +574,6 @@ For a chance at successful integration "simply" avoid all of them. 🙂
 
 Thanks for listening!
 
-<img src="./assets/good-luck-cat_Eunice-Poon.png" style="height: 200px; border: none;"></img>
+<img src="assets/good-luck-cat_Eunice-Poon.png" style="height: 200px; border: none;"></img>
 
 Got questions? Open an issue [here]()  <!-- TODO FILL IN LINK -->
