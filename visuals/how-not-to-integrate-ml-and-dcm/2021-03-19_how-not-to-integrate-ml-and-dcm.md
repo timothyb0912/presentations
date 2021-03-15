@@ -461,7 +461,12 @@ Image-description: mixed logit wandering in a forest.
 Maybe headless person with "mixed logit as words?"
 Maybe "mixed logit on a shirt?"
 See perhaps https://www.blackillustrations.com/illustrations/the-great-outdoors-illustration-pack -->
-<center><img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/mixed-logit-sketch_Eunice-Poon.png" style="height: 300px; border: none"></img></center>
+<center>
+<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/mixed-logit-sketch_Eunice-Poon.png" style="height: 300px; border: none"></img>
+<font size=1 color="grey">
+Image courtesy of Eunice Poon
+</font>
+</center>
 
 ---
 
@@ -598,6 +603,12 @@ For a chance at successful integration "simply" avoid all of them. 🙂
 
 Thanks for listening!
 
-<center><img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/good-luck-cat_Eunice-Poon.png" style="height: 200px; border: none;"></img></center>
+<center>
+<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/good-luck-cat_Eunice-Poon.png" style="height: 200px; border: none;"></img>
+</center>
+
+<font size=1 color="grey">
+Image courtesy of Eunice Poon
+</font>
 
 Got questions? Open an issue [here](https://github.com/timothyb0912/presentations/issues/new/choose)
