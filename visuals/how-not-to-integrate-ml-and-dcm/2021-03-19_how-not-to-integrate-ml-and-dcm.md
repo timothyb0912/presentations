@@ -592,6 +592,6 @@ For a chance at successful integration "simply" avoid all of them. 🙂
 
 Thanks for listening!
 
-<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/good-luck-cat_Eunice-Poon.png" style="height: 200px; border: none;"></img>
+<center><img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/good-luck-cat_Eunice-Poon.png" style="height: 200px; border: none;"></img></center>
 
-Got questions? Open an issue [here]()  <!-- TODO FILL IN LINK -->
+Got questions? Open an issue [here](https://github.com/timothyb0912/presentations/issues/new/choose)
