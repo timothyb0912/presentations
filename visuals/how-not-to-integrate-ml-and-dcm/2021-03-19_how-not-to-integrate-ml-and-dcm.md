@@ -129,9 +129,8 @@
 
 ## Slides -->
 
-class: center, middle
-
-# Integrating Machine Learning <br> and Discrete Choice: <br> What Could Go Wrong?
+# Integrating Machine Learning <br> and Discrete Choice
+## What Could Go Wrong?
 
 Timothy Brathwaite, PhD  
 March, 2021
@@ -140,11 +139,16 @@ March, 2021
 
 ## What is it that we actually want to do?
 
-At a high level...
+Overall, we want to go
 
-| From | To |
-| --- | --- |
-| Killer robot<br> <img src="assets/robot-golem.png" style="height: 200px; border:none;"></img> | Pet robot<br> <img src="https://static.thenounproject.com/png/1450088-200.png" style="hieght: 200px; border:none;"></img>|
+.left-column[
+From killer robot <br> <img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/robot-golem.png" style="height: 200px; border:none;"></img>
+]
+
+.right-column[
+To pet robot <br>
+<img src="https://static.thenounproject.com/png/1450088-200.png" style="height: 200px; border:none;"></img>
+]
 
 ---
 
@@ -155,41 +159,46 @@ to a neat econometric story of human decision making.
 
 | From | To |
 | --- | --- |
-| Neural Net Computational Graph <br> <img src="assets/neural-net-computational-graph.png" style="height: 200px; border:none;"></img> | Random Utility Causal Graph <br> <img src="assets/random-utility-graph.png" style="height: 200px; border:none;"></img> |
+| <center>Neural Net<br>Computational Graph <br></center> <img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/neural-net-computational-graph.png" style="height: 200px; border:none;"></img> | <center>Random Utility<br>Causal Graph <br></center> <img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/random-utility-graph.png" style="height: 200px; border:none;"></img> |
 
 ---
 
-## What is it that we actually want to do? (Part 2)
+## What is it that we actually want to do?
 
-In detail, we want to map machine learning models to
-causal systems that operate at the disaggregate level,
-with credible explanations for outcomes via causal mechanisms.
+In detail,<br>
+we want to map machine learning (ML) models<br>
+to disaggregate causal systems,<br>
+with causal mechanisms that explain the outcomes.
 
 
 | From | To |
 | --- | --- |
-| Logistic Regression<br> <img src="assets/logistic-regression-diagram.png" style="height: 200px; border:none;"></img> | Conditional Logit<br> <img src="assets/conditional-logit-diagram.png" style="height: 200px; border:none;"></img>|
+| <center>Logistic Regression</center><br> <img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/logistic-regression-diagram.png" style="height: 200px; border:none;"></img> | <center>Conditional Logit</center><br> <img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/conditional-logit-diagram.png" style="height: 200px; border:none;"></img>|
 
 ---
 
 ## What did I do in the past?
 
-[Map](https://arxiv.org/pdf/1711.04826.pdf) decision trees to non-compensatory decision making (disjunctions-of-conjunctions).
+I [mapped](https://arxiv.org/pdf/1711.04826.pdf) decision trees<br>
+to non-compensatory decision making<br>
+(disjunctions-of-conjunctions).
 
 | From | To |
 | --- | --- |
+| <center>cute trees</center> | <center>partitioned spaces</center>|
 |<img src="https://static.thenounproject.com/png/3136120-200.png" style="height: 200px; border: none;"></img>| <img src="https://upload.wikimedia.org/wikipedia/commons/5/50/CentroidalVoronoiTessellation1.png" style="height: 200px; border:none;"></img>|
-| cute trees | partitioned spaces  |
 
-----
+
+---
 
 ## What's the problem?
 
-Choice modellers are not using ML models (e.g. tree-based models) with their econometric interpretations.
+Choice modellers are not using ML models<br>
+(e.g. tree-based models) with econometric interpretation.
 
 Why not?
 
-<img src="assets/prediction-and-behavioral-analysis-of-travel-mode-choice.png" style="height: 400px; border: none;"></img>
+<center><img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/prediction-and-behavioral-analysis-of-travel-mode-choice.png" style="height: 400px; border: none;"></img></center>
 
 ---
 
@@ -197,7 +206,7 @@ Why not?
 
 Focus on why we fail, and avoid the pitfalls.
 
-<img src="https://149366099.v2.pressablecdn.com/wp-content/uploads/2014/06/Avoiding-Stupidity.png" style="height: 200px; border:none;"></img>
+<center><img src="https://149366099.v2.pressablecdn.com/wp-content/uploads/2014/06/Avoiding-Stupidity.png" style="height: 300px; border:none;"></img></center>
 
 ---
 
@@ -207,16 +216,16 @@ What pitfalls will we discuss and commit to avoiding?
 
 1. Training errors  
 2. Overfitting  
-3. Underfitting.
+3. Underfitting
 4. Neglecting causal inference
 
 ---
 
-## Training errors: issue definition
+## Training errors: definition
 
 When model training doesn't work out how you expected.
 
-<img src="https://media1.tenor.com/images/b2c1c2c3960cc95b0e084eaecef9d2cc/tenor.gif" style="height: 200px;"></img>
+<center><img src="https://media1.tenor.com/images/b2c1c2c3960cc95b0e084eaecef9d2cc/tenor.gif" style="height: 200px;"></img></center>
 
 <!-- Include links, preferably non-paywalled for each of these -->
 - bad initial values
@@ -228,18 +237,18 @@ When model training doesn't work out how you expected.
 
 ## Training errors: diagnostic tools
 
-- Visualization of gradient over time for each parameter
-- Linear probes for neural networks
 - Prior predictive checks
 (i.e., is your regularization harmful?)
+- Linear probes for neural networks
+- Visualization of gradient over time for each parameter
 
-<img src="assets/training-error-diagnostic-tools.png" style="height: 200px; border: none;"></img>
+<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/training-error-diagnostic-tools.png" style="height: 400px; border: none;"></img>
 
 ---
 
 ## Training errors: remedial tools
 
-Fake data simulation and training is a general tool for training error diagnosis.  
+Fake data simulation and training for training error diagnosis.  
 Can you make your fake data training fail the way real training fails?
 
 <!-- | From | To |
@@ -247,15 +256,15 @@ Can you make your fake data training fail the way real training fails?
 <img src="https://cdn.pixabay.com/photo/2010/12/06/22/soldiers-1002_1280.jpg" style="height: 200px; border: none;"></img>| <img src="https://static.thenounproject.com/png/1454957-200.png" style="height: 200px; border: none;"></img>|  
 | Real soldiers  | Toy soldiers  | -->
 
-<img src="assets/fake-data-training-error-diagnosis.png" style="height: 400px; border: none;"></img>
+<center><img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/fake-data-training-error-diagnosis.png" style="height: 400px; border: none;"></img></center>
 
 ---
 
-## Overfitting: issue definition
+## Overfitting: definition
 
 Our in-sample model performance is much better than our out-of-sample model performance.
 
-<img src="https://static.thenounproject.com/png/837530-200.png" style="height: 200px; border: none;"></img>
+<center><img src="https://static.thenounproject.com/png/837530-200.png" style="height: 200px; border: none;"></img></center>
 
 ---
 
@@ -271,23 +280,24 @@ Cross-validation / resampling are a general solution for identifying overfitting
 
 Hierarchical or otherwise non-exchangeable data (e.g. time series) require special care during resampling.
 
-<img src="https://static.thenounproject.com/png/3601295-200.png" style="height: 200px; border: none;"></img> <img src="https://static.thenounproject.com/png/995090-200.png" style="height: 200px; border: none;"></img>
+<center><img src="https://static.thenounproject.com/png/3601295-200.png" style="height: 200px; border: none;"></img> <img src="https://static.thenounproject.com/png/995090-200.png" style="height: 200px; border: none;"></img></center>
 
 ---
 
 ## Underfitting: definition
 
-> When some part(s) of one's model have not been adequately specialized to reflect the data generating process of one's data.
+When some part(s) of one's model have not been adequately specialized to reflect the data generating process of one's data.
 
 ---
 
 ## Underfitting: elaboration
 
-Likelihood, prior, and/or posterior approximation family may be underfit, in any combination.
+Likelihood, prior, and/or posterior approximation family<br>
+may be underfit, in any combination.
 
 <!-- Image-description: Inverted triangle (point down) where the vertices are the words "likelihood" (top left), "prior" (top right), "posterior approximation" (bottom). The words will hopefully be in a word cloud with font that looks handwritten. [Example](https://commoncog.com/blog/content/images/2018/12/Paper.Commonplace.30--1--1.png) -->
 
-<img src="assets/underfitting-contributors.png" style="height: 200px; border: none;"></img>
+<center><img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/underfitting-contributors.png" style="height: 300px; border: none;"></img></center>
 
 ---
 
@@ -295,7 +305,7 @@ Likelihood, prior, and/or posterior approximation family may be underfit, in any
 
 Alter the likelihood, prior, or posterior approximation family.
 
-<img src="assets/altering-underfitting-contributors.png" style="height: 200px; border: none;"></img>
+<center><img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/altering-underfitting-contributors.png" style="height: 300px; border: none;"></img></center>
 
 ---
 
@@ -307,7 +317,7 @@ Simulate
 <!--
 Image-description: Simulation image from left side of [slide 10](https://docs.google.com/presentation/d/1NWLZ5rkqV0cUSQK75bFWxEsyoUEYEBvuDu1ImUkbl7k/edit#slide=id.g56f8ca2c38_0_252) -->
 
-<img src="assets/simulate-from-model-draw-from-nature.png" style="height: 200px; border: none;"></img>
+<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/simulate-from-model-draw-from-nature.png" style="height: 300px; border: none;"></img>
 
 ---
 
@@ -317,7 +327,7 @@ Image-description: Simulation image from left side of [slide 10](https://docs.go
 
 <!-- Image-description: Full image from [slide 10](https://docs.google.com/presentation/d/1NWLZ5rkqV0cUSQK75bFWxEsyoUEYEBvuDu1ImUkbl7k/edit#slide=id.g56f8ca2c38_0_252) -->
 
-<img src="assets/simulate-and-compare.png" style="height: 200px; border: none;"></img>
+<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/simulate-and-compare.png" style="height: 250px; border: none;"></img>
 
 ---
 
@@ -335,7 +345,7 @@ Display paper citation & talk through main relevant points:
 stated preferences for automobile purchases,  
 emphasizing the choice of electric vehicles. -->
 
-<img src="assets/forecasting-new-product-penetration.png" style="height: 200px; border: none;"></img>
+<center><img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/forecasting-new-product-penetration.png" style="height: 300px; border: none;"></img></center>
 
 <!-- Be sure to include complex functional forms -->
 
@@ -353,7 +363,7 @@ Explain **change** one slide.
 
 Image-description: Images from [slide 29](https://docs.google.com/presentation/d/1ycJ9hqwI35hW4Hp_uAtnoK8lEnDLUcDT5AtSR-i1Rws/edit#slide=id.g56f8ca2c38_0_548) -->
 
-<img src="assets/check-yourself-suv-knot-example.png" style="height: 200px; border: none;"></img>
+<center><img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/check-yourself-suv-knot-example.png" style="height: 250px; border: none;"></img></center>
 
 The relative price variable was re-specified as piecewise linear with a knot at 3 and interacted with body type and with fuel type.
 
@@ -370,7 +380,7 @@ Explain **setting** one slide.
 Image-description: Display paper citation & talk through main relevant points:  
 DeVries 2015 (see checking zoo) stated preferences for blood pressure medication -->
 
-<img src="assets/role-of-age-in-blood-pressure-drug-prefeference.png" style="height: 200px; border: none;"></img>
+<center><img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/role-of-age-in-blood-pressure-drug-prefeference.png" style="height: 350px; border: none;"></img></center>
 
 ---
 
@@ -378,24 +388,25 @@ DeVries 2015 (see checking zoo) stated preferences for blood pressure medication
 
 Sometimes, the needed likelihood edit is adding alternative specific constants.
 
+
 | Missing ASCs <br> (Original) | All ASCs |
 | ---| ---|
-| <img src="assets/2015_deVries_no-ASC.png" style="height: 200px; border: none;"></img> | <img src="assets/2015_deVries_with-ASCs.png" style="height: 200px; border: none;"></img> |
-| Drug vs No-Drug  | Drug A vs Drug B vs No-Drug  |
+| <center><img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/2015_deVries_no-ASC.png" style="height: 300px; border: none;"></img></center> | <center><img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/2015_deVries_with-ASCs.png" style="height: 300px; border: none;"></img> </center> |
+| <center>Drug<br>vs<br>No-Drug</center>  | <center>Drug A<br>vs<br>Drug B<br>vs<br>No-Drug</center> |
 
 ---
 
 ## Underfitting: counterfactual prediction -> prior editing
 
-main idea--what do you already know the model should the model do for given inputs?  
-I.e. (prior) target elicitation / (prior) location-parameter-elicitation.
-  - Human-based specification of model behavior = counterfactual regularization
-  - Algorithm-based specification of model behavior = knowledge distillation
+what do you know the model should the model do for given inputs?<br>
+
+<!-- - Human-based behavior specification = counterfactual regularization
+- Algorithm-based behavior specification = knowledge distillation -->
 
 |Human teacher | Machine teacher|
 | ---| ---|
 | <img src="https://static.thenounproject.com/png/642111-200.png" style="height: 200px; border: none;"></img> | <img src="https://static.thenounproject.com/png/3385046-200.png" style="height: 200px; border: none;"></img> |
-| counterfactual regularization  | knowledge distillation  |
+| <center>counterfactual<br>regularization</center>  | <center>knowledge<br>distillation</center>  |
 
 
 
@@ -403,11 +414,11 @@ I.e. (prior) target elicitation / (prior) location-parameter-elicitation.
 
 ## Underfitting: counterfactual regularization as prior editing
 
-Imagine regularizing for monotonicity or magnitude-of-elasticity.   
+E.g., regularize for monotonicity or magnitude-of-elasticity.   
 Ideally, we want ML predictive ability + behavioral realism.  
-(I.e. We want our cake and we want to eat it too.)
+(I.e., we want our cake and we want to eat it too.)
 
-<img src="https://images.unsplash.com/photo-1516054575922-f0b8eeadec1a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" style="height: 200px, border: none;"></img>
+<center><img src="https://images.unsplash.com/photo-1516054575922-f0b8eeadec1a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" style="height: 200px, border: none;"></img></center>
 
 ---
 
@@ -417,7 +428,7 @@ Ideally, we want ML predictive ability + behavioral realism.
 When regularizing for expected properties (e.g. monotonicity),
 use a support that includes your counterfactual scenarios.
 
-<img src="assets/learning-monotonic-neural-networks.png" style="height: 200px, border: none;"></img>
+<center><img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/learning-monotonic-neural-networks.png" height="200" border="none"></img></center>
 
 <!-- LaTexIt
 \DeclareMathOperator*{\argmin}{argmin}
@@ -433,7 +444,9 @@ for further variations on the theme of counterfactual regularization.
 
 ## Underfitting: knowledge distillation as prior editing
 
-Imagine mixed logit, wandering through and regularized by a random forest's predictions.
+Imagine mixed logit,<br>
+wandering through and<br>
+regularized by a random forest's predictions.
 
 
 <!-- Explain **setting** one slide.
@@ -441,7 +454,7 @@ Image-description: mixed logit wandering in a forest.
 Maybe headless person with "mixed logit as words?"
 Maybe "mixed logit on a shirt?"
 See perhaps https://www.blackillustrations.com/illustrations/the-great-outdoors-illustration-pack -->
-<img src="assets/mixed-logit-sketch_Eunice-Poon.png" style="height: 200px; border: none"></img>
+<center><img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/mixed-logit-sketch_Eunice-Poon.png" style="height: 300px; border: none"></img></center>
 
 ---
 
@@ -451,35 +464,39 @@ See perhaps https://www.blackillustrations.com/illustrations/the-great-outdoors-
 Explain **technical form** of regularization in one slide.
 Could be predictions as in traditional knowledge distillation.
 Could be the kernel as in random forest kernels. -->
-As an example, consider the following
+As an example, consider the following<br><br>
 
 <!-- Image-description: Show image from [here](https://docs.google.com/presentation/d/1ycJ9hqwI35hW4Hp_uAtnoK8lEnDLUcDT5AtSR-i1Rws/edit#slide=id.g593527d002_0_0), replacing P_empirical with P_forest. Regenerate the equations with latexit. -->
-<img src="assets/random-forest-regularization.png" style="height: 100px; border: none;"></img>
+<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/random-forest-regularization.png" style="height: 100px; border: none;"></img>
 
 ---
 
 ## Underfitting: prior design considerations
 
 How should you penalize deviations from the target?  
-Recognize that penalty design = distribution-elicitation
+Note penalty design = distribution-elicitation.
+<br><br>
 <!-- Imagine penalizing according to a gumbel vs a normal distribution.
-
 Image-description: two-panel image w/ left-side showing normal distribution + equation and right-side showing gumbel distribution + equation. -->
 
 | Gumbel | Normal |
 | --- | --- |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Gumbel-Density.svg/1920px-Gumbel-Density.svg.png" style="height: 100px; border: none;"></img> | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Normal_Distribution_PDF.svg/440px-Normal_Distribution_PDF.svg.png" style="height: 100px; border: none;"></img> |
-|<img src="assets/gumbel-density.png" style="height: 75px; border: none;"></img>   |  <img src="assets/normal-density.png" style="height: 75px; border: none;"></img>  |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Gumbel-Density.svg/1920px-Gumbel-Density.svg.png" style="height: 200px; border: none;"></img> | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Normal_Distribution_PDF.svg/440px-Normal_Distribution_PDF.svg.png" style="height: 200px; border: none;"></img> |
+|<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/gumbel-density.png" style="height: 150px; border: none;"></img>   |  <img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/normal-density.png" style="height: 150px; border: none;"></img>  |
 
 
 ---
 
 ## Causal errors: the final frontier
 
-When modelling, ignoring one's data generating process **potentially** causes poor predictions.  
-When unobserved confounding is present, one's usual likelihood [is wrong](https://github.com/timothyb0912/ci_for_prediction/blob/master/article/modeling_unmeasured_confounding.pdf).
+When modelling,<br>
+ignoring one's data generating process<br>
+**potentially** causes poor predictions.<br><br>
+When unobserved confounding<br>
+(see diagram below) is present,<br>
+one's usual likelihood [is wrong](https://github.com/timothyb0912/ci_for_prediction/blob/master/article/modeling_unmeasured_confounding.pdf).
 
-<img src="assets/discriminative-confounding.png" style="height: 200px; border: none;"></img>
+<center><img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/discriminative-confounding.png" style="height: 200px; border: none;"></img></center>
 
 ---
 
@@ -489,22 +506,24 @@ When unobserved confounding is present, one's usual likelihood [is wrong](https:
 
 Imagine a mode choice model with the following, hypothesized causal graph.
 
-<img src="assets/drive_alone_utility_example.png" style="height: 200px; border: none;"></img>
+<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/drive_alone_utility_example.png" style="height: 200px; border: none;"></img>
 
-This graph implies travel time is independent of travel cost, given travel distance.
+This graph implies travel time is independent of travel cost,<br>
+given travel distance.
 
 
 ---
 
 ## Causal errors: diagnosis
 
-Failed independence tests in one's causal graph may come from unobserved confounders.
+Failed independence tests may come from unobserved confounders.
 
 E.g. San Francisco Bay crossings likely confound travel cost and travel time, even after controlling for travel distance.
 
-<img src="assets/causal_graph_permutation_testing.png" style="height: 200px; border: none;"></img>
+<center><img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/causal_graph_permutation_testing.png" style="height: 300px; border: none;"></img></center>
 
-<font size=1>For more information, see
+<font size=1>For more information, see<br>
+
 > Brathwaite, Timothy, and Obeid, Hassan, and Bouzaghrane, Mohamed Amine (2021). "Causal Graphs in Choice Modelling: The What, Why, and How." Forthcoming in Handbook of Choice Modelling, 2nd Edition. https://github.com/hassan-obeid/tr_b_causal_2020/blob/master/article/main.pdf.
 </font>
 ---
@@ -513,11 +532,13 @@ E.g. San Francisco Bay crossings likely confound travel cost and travel time, ev
 
 Collect and analyze additional variables.
 
-Identified relationships between either of the following variable pairs indicate the presence of unobserved confounding.
+Identified relationships<br>
+between either of the following variable pairs<br>
+indicate the presence of unobserved confounding.
 
-| negative control outcome (N) <br>+ real exposure (A) | negative control exposure (B) <br>+ real outcome (Y) |
+| negative control outcome (N) <br>+ real exposure (A) | <font color="white">dd</font>negative control exposure (B) <br>+ real outcome (Y) |
 | --- | --- |
-| <img src="assets/negative_control_outcome.png" style="height: 200px; border: none;"></img> | <img src="assets/negative_control_exposure.png" style="height: 200px; border: none;"></img> |
+| <img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/negative_control_outcome.png" style="height: 200px; border: none;"></img> | <font color="white">dd</font><img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/negative_control_exposure.png" style="height: 200px; border: none;"></img> |
 
 
 See [here](http://www.ph.ucla.edu/epi/faculty/greenland/Epi204/Negative_Controls.Epidemiol2010.pdf) and [here](https://arxiv.org/pdf/2009.05641.pdf) for more information.
@@ -531,7 +552,7 @@ Get more data: either on the confounder (U) or on mechanisms (M).
 
 Either is sufficient to construct an accurate likelihood.
 
-<img src="http://marcfbellemare.com/wordpress/wp-content/uploads/2019/01/FDC.png" style="height: 200px; border: none;"></img>
+<center><img src="http://marcfbellemare.com/wordpress/wp-content/uploads/2019/01/FDC.png" style="height: 200px; border: none;"></img></center>
 
 
 ---
@@ -540,11 +561,9 @@ Either is sufficient to construct an accurate likelihood.
 
 Model the unobserved confounders
 
-The idea is to replace a real tiger with an "inferred" tiger that shares similar characteristics.
-
 | From | To |
 | --- | --- |
-| <img src="https://images.unsplash.com/photo-1591824438708-ce405f36ba3d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" style="height: 100px, border: none;"></img> | <img src="https://images.unsplash.com/photo-1600693919791-7829a39b602e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" style="height: 100px, border: none;"></img> |
+| <img src="https://images.unsplash.com/photo-1591824438708-ce405f36ba3d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" style="height: 50px, border: none;"></img> | <img src="https://images.unsplash.com/photo-1600693919791-7829a39b602e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" style="height: 50The px, border: none;"></img> |
 |Real confounders | modeled confounders  |
 
 
@@ -555,14 +574,13 @@ The idea is to replace a real tiger with an "inferred" tiger that shares similar
 
 Bound the effects on one's inferences
 
-<img src="https://static.thenounproject.com/png/37909-200.png" style="height: 100px, border: none;"></img>
+<center><img src="https://static.thenounproject.com/png/37909-200.png" style="height: 100px, border: none;"></img></center>
 
 ---
 
 ## Recap
 
-
-<img src="assets/discrete-choice-ml-integration-error-recap.png" style="height: 200px; border: none;"></img>
+<center><img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/discrete-choice-ml-integration-error-recap.png" style="height: 300px; border: none;"></img></center>
 
 Any one of these issues can tank one's efforts to integrate ML and Discrete Choice.  
 For a chance at successful integration "simply" avoid all of them. 🙂
@@ -574,6 +592,6 @@ For a chance at successful integration "simply" avoid all of them. 🙂
 
 Thanks for listening!
 
-<img src="assets/good-luck-cat_Eunice-Poon.png" style="height: 200px; border: none;"></img>
+<center><img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/good-luck-cat_Eunice-Poon.png" style="height: 200px; border: none;"></img></center>
 
-Got questions? Open an issue [here]()  <!-- TODO FILL IN LINK -->
+Got questions? Open an issue [here](https://github.com/timothyb0912/presentations/issues/new/choose)
