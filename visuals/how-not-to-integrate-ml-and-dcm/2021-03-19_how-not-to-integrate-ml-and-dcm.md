@@ -520,7 +520,7 @@ Failed independence tests may come from unobserved confounders.
 
 E.g. San Francisco Bay crossings likely confound travel cost and travel time, even after controlling for travel distance.
 
-<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/causal_graph_permutation_testing.png" style="height: 200px; border: none;"></img>
+<center><img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/causal_graph_permutation_testing.png" style="height: 300px; border: none;"></img></center>
 
 <font size=1>For more information, see<br>
 
