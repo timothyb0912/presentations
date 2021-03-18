@@ -145,7 +145,9 @@ https://bit.ly/2QhVoJx
 
 ## Thank you
 
-<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/ml-dcm-integration-fail-thank-you-images.png" style="height: 200px; border:none;"></img>
+<center>
+<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/ml-dcm-integration-fail-thank-you-images.png" style="height: 400px; border:none;"></img>
+</center>
 
 ---
 
