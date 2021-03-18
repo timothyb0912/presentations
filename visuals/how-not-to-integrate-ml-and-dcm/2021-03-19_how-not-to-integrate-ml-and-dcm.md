@@ -137,6 +137,18 @@ March, 2021
 
 ---
 
+## Follow along
+
+https://bit.ly/2QhVoJx
+
+---
+
+## Thank you
+
+<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/ml-dcm-integration-fail-thank-you-images.png" style="height: 200px; border:none;"></img>
+
+---
+
 ## What is it that we actually want to do?
 
 Overall, we want to go
@@ -180,8 +192,8 @@ with causal mechanisms that explain the outcomes.
 ## What did I do in the past?
 
 I [mapped](https://arxiv.org/pdf/1711.04826.pdf) decision trees<br>
-to non-compensatory decision making<br>
-(disjunctions-of-conjunctions).
+to non-compensatory / rule-based decision making<br>
+(i.e., disjunctions-of-conjunctions).
 
 | From | To |
 | --- | --- |
@@ -367,6 +379,7 @@ Image-description: Images from [slide 29](https://docs.google.com/presentation/d
 <center><img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/check-yourself-suv-knot-example.png" style="height: 250px; border: none;"></img></center>
 
 The relative price variable was re-specified as piecewise linear with a knot at 3 and interacted with body type and with fuel type.
+Code: [original](https://nbviewer.jupyter.org/github/timothyb0912/check-yourself/blob/develop/notebooks/_06-tb-Make_introductory_plots.ipynb) model; [new](https://nbviewer.jupyter.org/github/timothyb0912/check-yourself/blob/develop/notebooks/_08-tb-Make-Plots-of-Interaction-MNL.ipynb) model
 
 ---
 
@@ -390,7 +403,7 @@ DeVries 2015 (see checking zoo) stated preferences for blood pressure medication
 Sometimes, the needed likelihood edit is adding alternative specific constants.
 
 
-| Missing ASCs <br> (Original) | All ASCs |
+| [Missing ASCs](https://nbviewer.jupyter.org/github/timothyb0912/checking-zoo/blob/update-devries/notebooks/deVries_2015/_01-tb-replication-and-posterior-predictive-check.ipynb) <br> (Original) | [All ASCs](https://nbviewer.jupyter.org/github/timothyb0912/checking-zoo/blob/update-devries/notebooks/deVries_2015/_03-tb-add-ASCs-and-posterior-predictive-check.ipynb) |
 | ---| ---|
 | <center><img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/2015_deVries_no-ASC.png" style="height: 300px; border: none;"></img></center> | <center><img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/2015_deVries_with-ASCs.png" style="height: 300px; border: none;"></img> </center> |
 | <center>Drug<br>vs<br>No-Drug</center>  | <center>Drug A<br>vs<br>Drug B<br>vs<br>No-Drug</center> |
@@ -535,7 +548,7 @@ E.g. San Francisco Bay crossings likely confound travel cost and travel time, ev
 <center><img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/causal_graph_permutation_testing.png" style="height: 300px; border: none;"></img></center>
 
 
-<font color="grey" size=1> Brathwaite, Timothy, and Obeid, Hassan, and Bouzaghrane, Mohamed Amine (2021). "Causal Graphs in Choice Modelling: The What, Why, and How." In Preparation. https://github.com/hassan-obeid/tr_b_causal_2020/blob/master/article/main.pdf.
+<font color="grey" size=1> Brathwaite, Timothy, and Obeid, Hassan, and Bouzaghrane, Mohamed Amine (2021). "Causal Graphs in Choice Modelling: The What, Why, and How." In Preparation. <a href="https://github.com/hassan-obeid/tr_b_causal_2020/blob/master/article/main.pdf">https://github.com/hassan-obeid/tr_b_causal_2020/blob/master/article/main.pdf</a>.
 </font>
 ---
 
