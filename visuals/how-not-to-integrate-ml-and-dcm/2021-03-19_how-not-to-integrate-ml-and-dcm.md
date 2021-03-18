@@ -137,6 +137,18 @@ March, 2021
 
 ---
 
+## Follow along
+
+https://bit.ly/2QhVoJx
+
+---
+
+## Thank you
+
+<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/ml-dcm-integration-fail-thank-you-images.png" style="height: 200px; border:none;"></img>
+
+---
+
 ## What is it that we actually want to do?
 
 Overall, we want to go
