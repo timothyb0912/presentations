@@ -151,6 +151,15 @@ https://bit.ly/2QhVoJx
 
 ---
 
+## Motivation
+
+- [Loan approval](https://www.upstart.com/about#future-of-credit-2): will this person repay the loan?
+- [Bail decisions](https://www.propublica.org/article/how-we-analyzed-the-compas-recidivism-algorithm):
+  will this person commit a crime while awaiting trial?
+- Autonomous-vehicles: will this person choose to dash [across the street](https://ieeexplore.ieee.org/abstract/document/8241847)?
+
+---
+
 ## What is it that we actually want to do?
 
 Overall, we want to go
@@ -299,6 +308,14 @@ require special care during resampling.
 
 ---
 
+## Overfitting: remediation
+
+<a href="https://googlethatforyou.com/?q=overfitting%20regularization">
+https://googlethatforyou.com/?q=overfitting%20regularization
+</a>
+
+---
+
 ## Underfitting: definition
 
 When some part(s) of one's model have not been adequately specialized to reflect the data generating process of one's data.
@@ -380,8 +397,17 @@ Image-description: Images from [slide 29](https://docs.google.com/presentation/d
 
 <center><img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/check-yourself-suv-knot-example.png" style="height: 250px; border: none;"></img></center>
 
-The relative price variable was re-specified as piecewise linear with a knot at 3 and interacted with body type and with fuel type.
+The relative price variable was re-specified as piecewise linear with a knot at 3 and interacted with body type and with fuel type.  
 Code: [original](https://nbviewer.jupyter.org/github/timothyb0912/check-yourself/blob/develop/notebooks/_06-tb-Make_introductory_plots.ipynb) model; [new](https://nbviewer.jupyter.org/github/timothyb0912/check-yourself/blob/develop/notebooks/_08-tb-Make-Plots-of-Interaction-MNL.ipynb) model
+
+<font size=1 color="grey">
+Brathwaite, Timothy.
+"Check yourself before you wreck yourself:
+Assessing discrete choice models through predictive simulations"
+arXiv preprint
+arXiv:1806.02307 (2018).
+<a href="https://arxiv.org/abs/1806.02307">https://arxiv.org/abs/1806.02307</a>.
+</font>
 
 ---
 
