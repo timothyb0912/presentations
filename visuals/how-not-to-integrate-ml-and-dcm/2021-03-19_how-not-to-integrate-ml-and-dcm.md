@@ -380,8 +380,17 @@ Image-description: Images from [slide 29](https://docs.google.com/presentation/d
 
 <center><img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/check-yourself-suv-knot-example.png" style="height: 250px; border: none;"></img></center>
 
-The relative price variable was re-specified as piecewise linear with a knot at 3 and interacted with body type and with fuel type.
+The relative price variable was re-specified as piecewise linear with a knot at 3 and interacted with body type and with fuel type.  
 Code: [original](https://nbviewer.jupyter.org/github/timothyb0912/check-yourself/blob/develop/notebooks/_06-tb-Make_introductory_plots.ipynb) model; [new](https://nbviewer.jupyter.org/github/timothyb0912/check-yourself/blob/develop/notebooks/_08-tb-Make-Plots-of-Interaction-MNL.ipynb) model
+
+<font size=1 color="grey">
+Brathwaite, Timothy.
+"Check yourself before you wreck yourself:
+Assessing discrete choice models through predictive simulations"
+arXiv preprint
+arXiv:1806.02307 (2018).
+<a href="https://arxiv.org/abs/1806.02307">https://arxiv.org/abs/1806.02307</a>.
+</font>
 
 ---
 
