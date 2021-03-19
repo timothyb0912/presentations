@@ -151,6 +151,15 @@ https://bit.ly/2QhVoJx
 
 ---
 
+## Motivation
+
+- [Loan approval](https://www.upstart.com/about#future-of-credit-2): will this person repay the loan?
+- [Bail decisions](https://www.propublica.org/article/how-we-analyzed-the-compas-recidivism-algorithm):
+  will this person commit a crime while awaiting trial?
+- Autonomous-vehicles: will this person choose to dash [across the street](https://ieeexplore.ieee.org/abstract/document/8241847)?
+
+---
+
 ## What is it that we actually want to do?
 
 Overall, we want to go
@@ -296,6 +305,14 @@ Hierarchical or otherwise non-exchangeable data (e.g. time series)
 require special care during resampling.
 
 <center><img src="https://static.thenounproject.com/png/3601295-200.png" style="height: 200px; border: none;"></img> <img src="https://static.thenounproject.com/png/995090-200.png" style="height: 200px; border: none;"></img></center>
+
+---
+
+## Overfitting: remediation
+
+<a href="https://googlethatforyou.com/?q=overfitting%20regularization">
+https://googlethatforyou.com/?q=overfitting%20regularization
+</a>
 
 ---
 
