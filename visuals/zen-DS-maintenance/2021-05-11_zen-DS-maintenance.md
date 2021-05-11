@@ -4,7 +4,7 @@
 
 ## Follow along
 
-<!-- Create and insert link here -->
+https://bit.ly/3tDfM5P
 
 ---
 
