@@ -4,7 +4,7 @@
 
 ## Follow along
 
-https://bit.ly/3tDfM5P
+https://bit.ly/3beVNnF
 
 ---
 
