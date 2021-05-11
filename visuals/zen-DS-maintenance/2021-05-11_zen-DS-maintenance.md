@@ -1,4 +1,5 @@
 <img src="https://raw.githubusercontent.com/timothyb0912/presentations/zen-DS-maintenance/visuals/assets/zen-ds-assets/slide-01-img.jpg" style="height: 400px; border:none;"></img>
+
 ---
 
 ## Follow along
@@ -34,6 +35,7 @@
 ---
 
 <img src="https://raw.githubusercontent.com/timothyb0912/presentations/zen-DS-maintenance/visuals/assets/zen-ds-assets/slide-08-img.jpg" style="height: 400px; border:none;"></img>
+
 ---
 
 <img src="https://raw.githubusercontent.com/timothyb0912/presentations/zen-DS-maintenance/visuals/assets/zen-ds-assets/slide-09-img.jpg" style="height: 400px; border:none;"></img>
@@ -41,6 +43,7 @@
 ---
 
 <img src="https://raw.githubusercontent.com/timothyb0912/presentations/zen-DS-maintenance/visuals/assets/zen-ds-assets/slide-10-img.jpg" style="height: 400px; border:none;"></img>
+
 ---
 
 <img src="https://raw.githubusercontent.com/timothyb0912/presentations/zen-DS-maintenance/visuals/assets/zen-ds-assets/slide-11-img.jpg" style="height: 400px; border:none;"></img>
@@ -48,9 +51,11 @@
 ---
 
 <img src="https://raw.githubusercontent.com/timothyb0912/presentations/zen-DS-maintenance/visuals/assets/zen-ds-assets/slide-12-img.jpg" style="height: 400px; border:none;"></img>
+
 ---
 
 <img src="https://raw.githubusercontent.com/timothyb0912/presentations/zen-DS-maintenance/visuals/assets/zen-ds-assets/slide-13-img.jpg" style="height: 400px; border:none;"></img>
+
 ---
 
 <img src="https://raw.githubusercontent.com/timothyb0912/presentations/zen-DS-maintenance/visuals/assets/zen-ds-assets/slide-14-img.jpg" style="height: 400px; border:none;"></img>
