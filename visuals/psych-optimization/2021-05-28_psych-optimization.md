@@ -1,3 +1,5 @@
+
+
 <!-- # Psychological Optimization <br>AKA Therapeutic Healing & Coaching -->
 
 <img src="https://raw.githubusercontent.com/timothyb0912/presentations/psych-opt/visuals/assets/psych-opt-assets/slide-01-img.jpg" style="height: 400px; border:none;"></img>
@@ -16,6 +18,7 @@ It’s about coaching: being able to make plans,
 be present and adjust in-the-moment,
 and review one’s performance afterwards.
  -->
+
 ---
 
 ## Follow along
@@ -48,19 +51,15 @@ Against your thoughts, beliefs, emotions, and inner ‘parts’.
 
 <img src="https://raw.githubusercontent.com/timothyb0912/presentations/psych-opt/visuals/assets/psych-opt-assets/slide-06-img.jpg" style="height: 400px; border:none;"></img>
 
-<!--
-[OODA-Loop](https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OODA_loop.jpg/1600px-OODA_loop.jpg)
+<!-- [OODA-Loop](https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OODA_loop.jpg/1600px-OODA_loop.jpg)
 [blue-angels-sf-2019](https://unsplash.com/photos/pN_A1VDsaCo)
-
- -->
+-->
 
 ---
 
 <img src="https://raw.githubusercontent.com/timothyb0912/presentations/psych-opt/visuals/assets/psych-opt-assets/slide-07-img.jpg" style="height: 400px; border:none;"></img>
 
-<!--
-[gynandromorph-cardinal](https://whyevolutionistrue.com/wp-content/uploads/2012/09/cardinal-11.jpg)
--->
+<!-- [gynandromorph-cardinal](https://whyevolutionistrue.com/wp-content/uploads/2012/09/cardinal-11.jpg) -->
 
 ---
 
