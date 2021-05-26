@@ -23,7 +23,8 @@ and review one’s performance afterwards.
 
 ## Follow along
 
-<!-- Insert link here. -->
+https://bit.ly/3bYeaxz
+<!-- https://cicero.xyz/v3/reveal.js/3.7.0/github.com/timothyb0912/presentations/stable/visuals/psych-optimization/2021-05-28_psych-optimization.md -->
 
 ---
 
