@@ -2,7 +2,7 @@
 
 <!-- # Psychological Optimization <br>AKA Therapeutic Healing & Coaching -->
 
-<img src="https://raw.githubusercontent.com/timothyb0912/presentations/psych-opt/visuals/assets/psych-opt-assets/slide-01-img.jpg" style="height: 400px; border:none;"></img>
+<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/psych-opt-assets/slide-01-img.jpg" style="height: 400px; border:none;"></img>
 
 <!--
 [couple-dancing](https://static.thenounproject.com/png/858441-200.png)
@@ -28,11 +28,11 @@ https://bit.ly/3bYeaxz
 
 ---
 
-<img src="https://raw.githubusercontent.com/timothyb0912/presentations/psych-opt/visuals/assets/psych-opt-assets/slide-03-img.jpg" style="height: 400px; border:none;"></img>
+<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/psych-opt-assets/slide-03-img.jpg" style="height: 400px; border:none;"></img>
 
 ---
 
-<img src="https://raw.githubusercontent.com/timothyb0912/presentations/psych-opt/visuals/assets/psych-opt-assets/slide-04-img.jpg" style="height: 400px; border:none;"></img>
+<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/psych-opt-assets/slide-04-img.jpg" style="height: 400px; border:none;"></img>
 
 <!--
 [boxers](https://images.unsplash.com/photo-1601588462477-e76b16de79f3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2100&q=80)
@@ -46,11 +46,11 @@ Against your thoughts, beliefs, emotions, and inner ‘parts’.
 
 ---
 
-<img src="https://raw.githubusercontent.com/timothyb0912/presentations/psych-opt/visuals/assets/psych-opt-assets/slide-05-img.jpg" style="height: 400px; border:none;"></img>
+<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/psych-opt-assets/slide-05-img.jpg" style="height: 400px; border:none;"></img>
 
 ---
 
-<img src="https://raw.githubusercontent.com/timothyb0912/presentations/psych-opt/visuals/assets/psych-opt-assets/slide-06-img.jpg" style="height: 400px; border:none;"></img>
+<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/psych-opt-assets/slide-06-img.jpg" style="height: 400px; border:none;"></img>
 
 <!-- [OODA-Loop](https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OODA_loop.jpg/1600px-OODA_loop.jpg)
 [blue-angels-sf-2019](https://unsplash.com/photos/pN_A1VDsaCo)
@@ -58,21 +58,21 @@ Against your thoughts, beliefs, emotions, and inner ‘parts’.
 
 ---
 
-<img src="https://raw.githubusercontent.com/timothyb0912/presentations/psych-opt/visuals/assets/psych-opt-assets/slide-07-img.jpg" style="height: 400px; border:none;"></img>
+<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/psych-opt-assets/slide-07-img.jpg" style="height: 400px; border:none;"></img>
 
 <!-- [gynandromorph-cardinal](https://whyevolutionistrue.com/wp-content/uploads/2012/09/cardinal-11.jpg) -->
 
 ---
 
-<img src="https://raw.githubusercontent.com/timothyb0912/presentations/psych-opt/visuals/assets/psych-opt-assets/slide-08-img.jpg" style="height: 400px; border:none;"></img>
+<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/psych-opt-assets/slide-08-img.jpg" style="height: 400px; border:none;"></img>
 
 ---
 
-<img src="https://raw.githubusercontent.com/timothyb0912/presentations/psych-opt/visuals/assets/psych-opt-assets/slide-09-img.jpg" style="height: 400px; border:none;"></img>
+<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/psych-opt-assets/slide-09-img.jpg" style="height: 400px; border:none;"></img>
 
 ---
 
-<img src="https://raw.githubusercontent.com/timothyb0912/presentations/psych-opt/visuals/assets/psych-opt-assets/slide-10-img.jpg" style="height: 400px; border:none;"></img>
+<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/psych-opt-assets/slide-10-img.jpg" style="height: 400px; border:none;"></img>
 
 <!--
 [Traumas](https://static.thenounproject.com/png/2318351-200.png)
@@ -82,11 +82,11 @@ Against your thoughts, beliefs, emotions, and inner ‘parts’.
 
 ---
 
-<img src="https://raw.githubusercontent.com/timothyb0912/presentations/psych-opt/visuals/assets/psych-opt-assets/slide-11-img.jpg" style="height: 400px; border:none;"></img>
+<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/psych-opt-assets/slide-11-img.jpg" style="height: 400px; border:none;"></img>
 
 ---
 
-<img src="https://raw.githubusercontent.com/timothyb0912/presentations/psych-opt/visuals/assets/psych-opt-assets/slide-12-img.jpg" style="height: 400px; border:none;"></img>
+<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/psych-opt-assets/slide-12-img.jpg" style="height: 400px; border:none;"></img>
 
 <!--
 [magnifying-glass](https://static.thenounproject.com/png/214271-200.png)
@@ -94,47 +94,47 @@ Against your thoughts, beliefs, emotions, and inner ‘parts’.
 
 ---
 
-<img src="https://raw.githubusercontent.com/timothyb0912/presentations/psych-opt/visuals/assets/psych-opt-assets/slide-13-img.jpg" style="height: 400px; border:none;"></img>
+<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/psych-opt-assets/slide-13-img.jpg" style="height: 400px; border:none;"></img>
 
 ---
 
-<img src="https://raw.githubusercontent.com/timothyb0912/presentations/psych-opt/visuals/assets/psych-opt-assets/slide-14-img.jpg" style="height: 400px; border:none;"></img>
+<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/psych-opt-assets/slide-14-img.jpg" style="height: 400px; border:none;"></img>
 
 ---
 
-<img src="https://raw.githubusercontent.com/timothyb0912/presentations/psych-opt/visuals/assets/psych-opt-assets/slide-15-img.jpg" style="height: 400px; border:none;"></img>
+<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/psych-opt-assets/slide-15-img.jpg" style="height: 400px; border:none;"></img>
 
 ---
 
-<img src="https://raw.githubusercontent.com/timothyb0912/presentations/psych-opt/visuals/assets/psych-opt-assets/slide-16-img.jpg" style="height: 400px; border:none;"></img>
+<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/psych-opt-assets/slide-16-img.jpg" style="height: 400px; border:none;"></img>
 
 ---
 
-<img src="https://raw.githubusercontent.com/timothyb0912/presentations/psych-opt/visuals/assets/psych-opt-assets/slide-17-img.jpg" style="height: 400px; border:none;"></img>
+<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/psych-opt-assets/slide-17-img.jpg" style="height: 400px; border:none;"></img>
 
 ---
 
-<img src="https://raw.githubusercontent.com/timothyb0912/presentations/psych-opt/visuals/assets/psych-opt-assets/slide-18-img.jpg" style="height: 400px; border:none;"></img>
+<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/psych-opt-assets/slide-18-img.jpg" style="height: 400px; border:none;"></img>
 
 ---
 
-<img src="https://raw.githubusercontent.com/timothyb0912/presentations/psych-opt/visuals/assets/psych-opt-assets/slide-19-img.jpg" style="height: 400px; border:none;"></img>
+<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/psych-opt-assets/slide-19-img.jpg" style="height: 400px; border:none;"></img>
 
 ---
 
-<img src="https://raw.githubusercontent.com/timothyb0912/presentations/psych-opt/visuals/assets/psych-opt-assets/slide-20-img.jpg" style="height: 400px; border:none;"></img>
+<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/psych-opt-assets/slide-20-img.jpg" style="height: 400px; border:none;"></img>
 
 ---
 
-<img src="https://raw.githubusercontent.com/timothyb0912/presentations/psych-opt/visuals/assets/psych-opt-assets/slide-21-img.jpg" style="height: 400px; border:none;"></img>
+<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/psych-opt-assets/slide-21-img.jpg" style="height: 400px; border:none;"></img>
 
 ---
 
-<img src="https://raw.githubusercontent.com/timothyb0912/presentations/psych-opt/visuals/assets/psych-opt-assets/slide-22-img.jpg" style="height: 400px; border:none;"></img>
+<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/psych-opt-assets/slide-22-img.jpg" style="height: 400px; border:none;"></img>
 
 ---
 
-<img src="https://raw.githubusercontent.com/timothyb0912/presentations/psych-opt/visuals/assets/psych-opt-assets/slide-23-img.jpg" style="height: 400px; border:none;"></img>
+<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/psych-opt-assets/slide-23-img.jpg" style="height: 400px; border:none;"></img>
 
 <!--
 [couple-dancing](https://static.thenounproject.com/png/858441-200.png)
@@ -148,11 +148,11 @@ And have fun doing it, alone or with others.
 
 ---
 
-<img src="https://raw.githubusercontent.com/timothyb0912/presentations/psych-opt/visuals/assets/psych-opt-assets/slide-24-img.jpg" style="height: 400px; border:none;"></img>
+<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/psych-opt-assets/slide-24-img.jpg" style="height: 400px; border:none;"></img>
 
 ---
 
-<img src="https://raw.githubusercontent.com/timothyb0912/presentations/psych-opt/visuals/assets/psych-opt-assets/slide-25-img.jpg" style="height: 400px; border:none;"></img>
+<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/psych-opt-assets/slide-25-img.jpg" style="height: 400px; border:none;"></img>
 
 <!--
 [Inspiration--OODA](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/OODA.Boyd.svg/2880px-OODA.Boyd.svg.png)
@@ -160,7 +160,7 @@ And have fun doing it, alone or with others.
 
 ---
 
-<img src="https://raw.githubusercontent.com/timothyb0912/presentations/psych-opt/visuals/assets/psych-opt-assets/slide-26-img.jpg" style="height: 400px; border:none;"></img>
+<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/psych-opt-assets/slide-26-img.jpg" style="height: 400px; border:none;"></img>
 
 <!--
 [Inspiration](https://www.eti.training/post/i-may-not-be-the-right-therapist-for-you)
@@ -168,7 +168,7 @@ And have fun doing it, alone or with others.
 
 ---
 
-<img src="https://raw.githubusercontent.com/timothyb0912/presentations/psych-opt/visuals/assets/psych-opt-assets/slide-27-img.jpg" style="height: 400px; border:none;"></img>
+<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/psych-opt-assets/slide-27-img.jpg" style="height: 400px; border:none;"></img>
 
 <!--
 [principles](https://www.principles.com/assets/ray-dalio-principles-angled-book-ab1a2ff6c873144e545e21f9827a99a14d71bc635f6505ec17ee17bdf59ec742.png)
@@ -177,7 +177,7 @@ And have fun doing it, alone or with others.
 
 ---
 
-<img src="https://raw.githubusercontent.com/timothyb0912/presentations/psych-opt/visuals/assets/psych-opt-assets/slide-28-img.jpg" style="height: 400px; border:none;"></img>
+<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/psych-opt-assets/slide-28-img.jpg" style="height: 400px; border:none;"></img>
 
 <!--
 [internal family systems](https://image.slidesharecdn.com/392internalfamilysystemstheory-190513185221/95/internal-family-systems-theory-1-638.jpg?cb=1557773636)
@@ -186,7 +186,7 @@ And have fun doing it, alone or with others.
 
 ---
 
-<img src="https://raw.githubusercontent.com/timothyb0912/presentations/psych-opt/visuals/assets/psych-opt-assets/slide-29-img.jpg" style="height: 400px; border:none;"></img>
+<img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/psych-opt-assets/slide-29-img.jpg" style="height: 400px; border:none;"></img>
 
 <!--
 [ADDittude](https://i.pinimg.com/280x280_RS/34/aa/96/34aa962f0271e624dc58648fa7faefcb.jpg)
