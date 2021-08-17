@@ -39,6 +39,7 @@ Follow along
 <img src="https://raw.githubusercontent.com/timothyb0912/presentations/indiv-choice/visuals/assets/indiv-choice/slide-10.jpg" style="height: 400px; border:none;"></img>
 
 ---
+
 <img src="https://raw.githubusercontent.com/timothyb0912/presentations/indiv-choice/visuals/assets/indiv-choice/slide-11.jpg" style="height: 400px; border:none;"></img>
 
 ---
@@ -56,6 +57,7 @@ Follow along
 ---
 
 <img src="https://raw.githubusercontent.com/timothyb0912/presentations/indiv-choice/visuals/assets/indiv-choice/slide-15.jpg" style="height: 400px; border:none;"></img>
+
 ---
 
 <img src="https://raw.githubusercontent.com/timothyb0912/presentations/indiv-choice/visuals/assets/indiv-choice/slide-16.jpg" style="height: 400px; border:none;"></img>
