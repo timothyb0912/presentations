@@ -24,14 +24,13 @@ for his work on these topics.
 2020 and 2021 have been harsh.
 Pandemics, loss of life, and loss of loved ones in too many forms.
 Loss of wealth, health, and home for too many.
-The world's collective mental health has been severely challenged,
+Put simply--our collective mental health has been severely challenged,
 especially as seen through our ability to make and execute our desired plans
 (of all kinds).
 
 Our thoughts, physical feelings, and emotions
 all influence the way we plan to and actually do behave.
-Come participate in a discussion of
-how choice modelling might help us individually
+Come for a discussion of how choice modelling might help us individually
 describe, understand, and intervene to alter/control
 these influences in ourselves as we all attempt to "get better"
 (whether from bad to okay or okay to great) during these hard years.
