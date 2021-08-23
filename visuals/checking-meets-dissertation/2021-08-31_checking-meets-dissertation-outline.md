@@ -182,6 +182,9 @@ Citation: TO-BE-ADDED
 
 - Learn + Translate all three fields? -> No.
 
+<!-- I’m imagining an image of a dictionary,
+juxtaposed with the “ain’t nobody got time for that” slogan or meme/image -->
+
 ---
 
 ## How to make sense of it all? (modern)
