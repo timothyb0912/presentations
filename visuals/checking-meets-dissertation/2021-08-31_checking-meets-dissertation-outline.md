@@ -1,3 +1,14 @@
+## What is the intro to my IATBR dissertation review, 2021-08-31?
+
+> Hi everyone, first things first,
+> if you want to follow along on your own,
+> now or afterwards, see the link on screen.
+> See the youtube link to my original dissertation talk,
+> for relevant background and details.
+
+
+---
+
 # Checking models in statistics, machine learning, and discrete choice
 
 ## A perspective to bind us all
@@ -12,19 +23,24 @@ Timothy Brathwaite, August 2021
 ## Thanks
 
 - Choice Modelling Centre at University of Leeds
+  for hosting the seminar and inviting me to speak with you all.
 - Everyone for taking time out of their day to attend or watch this seminar.
 
-<!-- Perhaps we can simply reuse the slide from last time
+Unless I've said something that completely confused you,
+please hold questions till the end.
+
+<!-- Perhaps I can simply reuse the slide from last time
 (with any appropriate font changes if / as needed) -->
 
 ---
 
 ## What motivates the disciplinary mix? (problems)
 
-- Hard and complex choice problems being faced in industry
-  - choice of words, e.g. content-generation/support-chatbot, huggingface.co
-  - choice of location, e.g. yelp
-  - choice of clothing, e.g. stitchfix
+I believe that the mix is partially driven by the hard and complex
+choice problems being faced in industry, e.g. the choice of:
+  - words, e.g. content-generation/support-chatbot, huggingface.co
+  - location, e.g. yelp
+  - clothing, e.g. stitchfix
 
 <!-- Perhaps three sets of image/icon pairs?
 Something generic for word/location/clothing + corporate icons next to it? -->
@@ -33,21 +49,22 @@ Something generic for word/location/clothing + corporate icons next to it? -->
 
 ## What motivates the disciplinary mix? (opportunities)
 
-- All quantitative disciplines now interested in modeling (various) choices
-
-There is money to be made by accurately modelling choices,
+Beyond inherently interesting applications,
+there is money to be made by accurately modelling choices,
 so all quantitative disciplines have joined the party.
 
+<!-- All quantitative disciplines now interested in modeling choices -->
 <!-- maybe an image of money partying? -->
 
 ---
 
 ## What motivates the disciplinary mix? (questions)
 
-- Immediate and interesting questions are:
-  - how to adapt 'non-choice-specific' quantitative methods to choice modelling?
-  - how to promote and permit diversity, that is,
-    how to understand, appreciate, and assess unfamiliar adaptations?
+- Immediate and interesting methodological questions are:
+  - how to adapt 'non-choice-specific' quantitative methods to choice modelling,
+    like using a coffee-maker to cook one's hot-dogs,
+  - further, how to understand, appreciate, and assess unfamiliar adaptations?
+  <!-- how to promote and permit diversity, that is, -->
 
 <!-- Maybe two images. One for adaptation / overcoming functional-fixedness.
    Another to represent diversity. -->
@@ -56,7 +73,7 @@ so all quantitative disciplines have joined the party.
 
 ## How did my dissertation contribute? (Overall)
 
-By pattern modelling. Demonstrating an adaptation strategy of
+By modelling the following pattern and adaptation strategy:
 - starting with a
   - substantive choice modelling problem and
   - unsolved, technical problem with current choice models
@@ -84,8 +101,12 @@ University of California, Berkeley, 2018.
 ## How did my dissertation contribute? (Statistics)
 
 - pot/cauldron = low percentage of bicyclists
+  (i.e. class imbalance ~ undesired modeling outcomes)
 - spice = asymmetric link functions
+  (i.e. allow for generative processes with differential rates of
+  adoption and abandonment to 'explain' / model class imbalance)
 - spoon = multinomial implementation
+  (because typical choice modelling contexts have more than 2 choices)
 
 <!-- I'm imagining three images with caption (use wording above).
    pot = arrow-down, percentage sign, bicycle image
@@ -102,9 +123,10 @@ Journal of choice modelling 29 (2018): 78-112.
 
 ## How did my dissertation contribute? (Machine Learning)
 
-- pot/cauldron = non-compensatory bicycle choice behavior
+- pot/cauldron = (reported) non-compensatory bicycle choice behavior
 - spice = decision trees
 - spoon = bayesian model trees
+  to capture a notion of uncertainty in estimated non-compensatory behavior
 
 <!-- I'm imagining three images with caption (use wording above).
    pot = drake [meme](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.ujpgnl14FmLIiCaomE7WgQAAAA%26pid%3DApi&f=1) where no = car and yes = bicycle
@@ -122,7 +144,9 @@ arXiv preprint arXiv:1711.04826 (2017).
 ## How did my dissertation contribute? (Causal Inference)
 
 - pot/cauldron = (bicycle-infrastructure) intervention goals
-- spice = causal graphical models
+  we want causal predictions not just associations
+- spice = causal graphical models as perspective for performing model-based
+  causal inference in a clear and systematic manner.
 - spoon = latent variable modelling (and suggesting of)
 
 <!-- I'm imagining three images with caption (use wording above).
@@ -141,8 +165,8 @@ modeling (and the lack thereof)." Journal of choice modelling 26 (2018): 1-18.
 
 Applications
 - Route Choice
-	Associate Professor Dawei Li et al. (in preparation)
-- Auto vs Rail vs Air Travel Mode Choice
+	Associate Professor Dawei Li et al. (in preparation), Southeast University
+- Auto vs Rail vs Air Travel Mode Choice [Latent class + asymmetric models]
   Tinessa, Fiore, et al.
   "Evaluating the choice behaviour of high-speed rail passengers in Italy:
   a latent class structure with alternative kernel models to the
@@ -153,6 +177,13 @@ Applications
 ---
 
 ## What follow-up research has occurred? (Machine Learning)
+
+<!-- Not much occurred with trees, but there's been a successful
+  Rise of the (Neural) Nets: Choice modeller's working with neural networks have
+  followed the adaptation strategy described earlier and are producing novel
+  combinations at a tremendous rate.
+  E.g. the work of Shenhao Wang we'll hear from in the next IATBR seminar,
+  and work not published yet such as Yafei Han's work from MIT.-->
 
 Rise of the (Neural) Nets:
 - Wong, Melvin, and Bilal Farooq.
@@ -175,12 +206,21 @@ Oops! Not much to see here.
 
 Research still baking.
 
+<!-- The reality is that there has not been any known follow-ups on my causal
+inference work yet. There is some in progress work by my colleagues and I at
+UC Berkeley. However, this is the most recent and most difficult set of problems
+I considered in my dissertation, and it's not surprising that few attacks have
+been launched on it.-->
+
 ---
 
 ## How have the topics aged? (Overall)
 
 - Relevance/usefulness of ideas remain
+  as shown by applications and research following the same process
 - Choice modelling opportunities remain
+  (as highlighted in future work sections of each paper;
+  and they are more important now due to more areas of application)
 
 ---
 
