@@ -74,7 +74,10 @@ By pattern modelling. Demonstrating an adaptation strategy of
 
   Spoon. Caption = choice modelling implementation. -->
 
-Citation: TO-BE-ADDED
+Citation:
+Brathwaite, Timothy. The Holy Trinity: Blending Statistics, Machine Learning and
+Discrete Choice, with Applications to Strategic Bicycle Planning.
+University of California, Berkeley, 2018.
 
 ---
 
@@ -90,7 +93,10 @@ Citation: TO-BE-ADDED
    spoon = N > 2
  -->
 
-Citation: TO-BE-ADDED
+Citation:
+Brathwaite, Timothy, and Joan L. Walker.
+"Asymmetric, closed-form, finite-parameter models of multinomial choice."
+Journal of choice modelling 29 (2018): 78-112.
 
 ---
 
@@ -106,7 +112,10 @@ Citation: TO-BE-ADDED
    spoon = perhaps the words Bayes overlaid on an image of a 'model tree' such as http://preview.turbosquid.com/Preview/2014/05/21__00_30_15/tree_stvol8.jpgd2c63fd7-89b4-462e-8426-a15e639ad48fOriginal.jpg
  -->
 
-Citation: TO-BE-ADDED
+Citation:
+Brathwaite, Timothy, Akshay Vij, and Joan L. Walker. "Machine learning meets
+microeconomics: The case of decision trees and discrete choice."
+arXiv preprint arXiv:1711.04826 (2017).
 
 ---
 
@@ -122,31 +131,49 @@ Citation: TO-BE-ADDED
    spoon = "ICLV connections" with ICLV in a cool font?
  -->
 
-Citation: TO-BE-ADDED
+Citation:
+Brathwaite, Timothy, and Joan L. Walker. "Causal inference in travel demand
+modeling (and the lack thereof)." Journal of choice modelling 26 (2018): 1-18.
 
 ---
 
 ## What follow-up research has occurred? (Statistics)
 
-Content: TO-BE-ADDED
-
-Citation: TO-BE-ADDED
+Applications
+- Route Choice
+	Associate Professor Dawei Li et al. (in preparation)
+- Auto vs Rail vs Air Travel Mode Choice
+  Tinessa, Fiore, et al.
+  "Evaluating the choice behaviour of high-speed rail passengers in Italy:
+  a latent class structure with alternative kernel models to the
+  Multinomial Logit." 2020 IEEE International Conference on Environment and
+  Electrical Engineering and 2020 IEEE Industrial and Commercial Power Systems
+  Europe (EEEIC/I&CPS Europe). IEEE, 2020.
 
 ---
 
 ## What follow-up research has occurred? (Machine Learning)
 
-Content: TO-BE-ADDED
-
-Citation: TO-BE-ADDED
+Rise of the (Neural) Nets:
+- Wong, Melvin, and Bilal Farooq.
+  "ResLogit: A residual neural network logit model for data-driven
+  choice modelling." Transportation Research Part C: Emerging Technologies 126
+  (2021): 103050.
+- Wang, Shenhao, Qingyi Wang, and Jinhua Zhao.
+  "Deep neural networks for choice analysis:
+  Extracting complete economic information for interpretation."
+  Transportation Research Part C: Emerging Technologies 118 (2020): 102701.
+- Sifringer, Brian, Virginie Lurkin, and Alexandre Alahi.
+  "Enhancing discrete choice models with representation learning."
+  Transportation Research Part B: Methodological 140 (2020): 236-261.
 
 ---
 
 ## What follow-up research has occurred? (Causal Inference)
 
-Content: TO-BE-ADDED
+Oops! Not much to see here.
 
-Citation: TO-BE-ADDED
+Research still baking.
 
 ---
 
@@ -161,7 +188,7 @@ Citation: TO-BE-ADDED
 
 - Usage of custom link functions of any kind appears low.
 - Trees not used with any general econometric interpretations.
-- Causal graphical models not being widely used and investigated.
+- (Latent) Causal graphical models not being widely used and investigated.
 
 ---
 
@@ -197,6 +224,12 @@ juxtaposed with the “ain’t nobody got time for that” slogan or meme/image 
     Assess differences in how each chorus harmonizes with reality's soloist.
   - Look at a common picture under varying lights.
     View reality before a backdrop of model simulations from any field's models.
+
+Citation:
+Brathwaite, Timothy. "Check yourself before you wreck yourself:
+Assessing discrete choice models through predictive simulations."
+arXiv preprint arXiv:1806.02307 (2018).
+https://github.com/timothyb0912/check-yourself
 
 ---
 
