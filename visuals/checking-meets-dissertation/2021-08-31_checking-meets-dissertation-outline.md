@@ -221,18 +221,27 @@ been completed so far.-->
 ## How have the topics aged? (Overall)
 
 - Relevance/usefulness of ideas remain
-  as shown by applications and research following the same process
+  as shown by
+  - application results,
+  - research results following the same process, and
+  - class imbalance commonality.
 - Choice modelling opportunities remain
-  (as highlighted in future work sections of each paper;
-  and they are more important now due to more areas of application)
+  (as highlighted in future work sections of each paper)--since industrially, there is much to be gained now from:
+  - accurate predictive models
+  - credible causal models
 
 ---
 
 ## How have the topics aged? (The Bad)
 
-- Usage of custom link functions of any kind appears low.
-- Trees not used with any general econometric interpretations.
-- (Latent) Causal graphical models not being widely used and investigated.
+When considering the particulars of what has not gone well
+with the aging of my dissertation's efforts,
+implementation difficulties have hindered adoption of:
+
+- Usage of custom asymmetric choice models.
+- Trees with econometric interpretations and concerns.
+- credible causal graphical models,
+  especially with latent variables.
 
 ---
 
