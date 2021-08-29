@@ -247,18 +247,32 @@ implementation difficulties have hindered adoption of:
 
 ## How have the topics aged? (The Good)
 
-- Neural network research in choice modelling is accelerating and primarily
-  focusing attention on the index function rather than the link function.
-  At least some exercise is happening
-  (it's like working out one arm or leg but not the other).
-- Foundational / enabling work is happening in
+The good is that ongoing work related to my dissertation includes
+- Accelerating neural network research on the index function of choice models,
+  as a complement to my asymmetric link function work,
+- Foundational / enabling work in
   machine learning, statistics, and causal inference
-  - with trees (uncertainty-quantification + continuous-optimization)
-  - with causal graphical models (continuous-optimization + theory)
+  - with trees
+    (neural network adaptations enabling
+    continuous-optimization and easier uncertainty-quantification)
+  - with causal graphical models
+    (continuous-optimization for discovery + theory)
+
+This is all super exciting and paves the way for future
+connections to and research from choice modellers.
 
 ---
 
 ## How to make sense of it all? (original)
+
+> Of course, with all this research going on,
+> we need a way to understand everything.
+
+> Originally, I'd suggest learning all fields,
+> then translating.
+
+> But truthfully, that's too slow and unreasonable.
+> Ain't nobody got time for that!
 
 - Learn + Translate all three fields? -> No.
 
