@@ -268,10 +268,11 @@ connections to and research from choice modellers.
 > Of course, with all this research going on,
 > we need a way to understand everything.
 
-> Originally, I'd suggest learning all fields,
-> then translating.
+> Originally, during my dissertation
+> I'd suggest learning all fields then translating.
 
-> But truthfully, that's too slow and unreasonable.
+> But truthfully, after working in industry,
+> it's clear that's too slow and unreasonable.
 > Ain't nobody got time for that!
 
 - Learn + Translate all three fields? -> No.
@@ -281,16 +282,22 @@ juxtaposed with the “ain’t nobody got time for that” slogan or meme/image 
 
 ---
 
-## How to make sense of it all? (modern)
+## How to make sense of it all? (modern) [2min]
 
+So now, the modern approach I suggest to understand
+choice modelling work from all quantitative disciplines is to
+perform
 - Simulation-based model checking
   (competing analogies w/ most-preferred first, though both are accurate):
-  - Listen to a constant soloist against varying choirs.
-    Reality is the constant soloist.
-    Each model brings its own chorus of simulated realities.
-    Assess differences in how each chorus harmonizes with reality's soloist.
-  - Look at a common picture under varying lights.
-    View reality before a backdrop of model simulations from any field's models.
+  - Overall,
+    listen to a constant soloist against varying choirs.
+    Here, reality is the constant soloist.
+    Each model supplies its own chorus of simulated realities.
+    To assess and understand differences between models,
+    we play each model one by one, and
+    we assess differences in how each chorus harmonizes with reality's soloist.
+  <!-- - Look at a common picture under varying lights.
+    View reality before a backdrop of model simulations from any field's models. -->
 
 Citation:
 Brathwaite, Timothy. "Check yourself before you wreck yourself:
@@ -304,14 +311,30 @@ https://github.com/timothyb0912/check-yourself
 
 See https://cicero.xyz/v3/remark/0.14.0/github.com/timothyb0912/presentations/stable/visuals/how-not-to-integrate-ml-and-dcm/2021-03-19_how-not-to-integrate-ml-and-dcm.md/#23
 
+Here's what I mean, technically,
+by simulation-based model checking.
+The overall process is that we have explanatory variables X,
+people's choice-making process, and the outcomes or choices Y.
+We build a model to mimic individuals' choice processes,
+and we can extract simulated outcomes or choices, Y_sim.
+We then ask how similar Y_sim is to Y.
+
 ---
 
 ## How to check your models (step 1--frequentist)
 
 See 2020-04-09_Model Checking slide 15.
 
-The hope is to copy the slide contents exactly,
-and the slide sub-headings somewhat (e.g. leave out “in-detail”).
+Let's step through this one at a time.
+We have a model.
+All models have parameters.
+We estimate the model somehow,
+and we need to simulate from a distribution of the model parameters.
+
+As a frequentist, you might have a maximum likelihood estimate from your model,
+and so you might simulate from the parameters' asymptotic sampling distribution,
+so a normal distribution, centered at the maximum likelihood estimate
+and using the negative inverse of the hessian as the covariance matrix.
 
 ---
 
