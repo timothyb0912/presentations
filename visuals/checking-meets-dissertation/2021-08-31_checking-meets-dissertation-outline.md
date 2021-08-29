@@ -163,6 +163,10 @@ modeling (and the lack thereof)." Journal of choice modelling 26 (2018): 1-18.
 
 ## What follow-up research has occurred? (Statistics)
 
+After demonstrating the research pattern in my dissertation,
+it's natural to wonder what follow up research has occurred.
+In statistics:
+
 Applications
 - Route Choice
 	Associate Professor Dawei Li et al. (in preparation), Southeast University
@@ -178,7 +182,7 @@ Applications
 
 ## What follow-up research has occurred? (Machine Learning)
 
-<!-- Not much occurred with trees, but there's been a successful
+<!-- Not much occurred with trees and their econometric interpretations, but there's been a successful
   Rise of the (Neural) Nets: Choice modeller's working with neural networks have
   followed the adaptation strategy described earlier and are producing novel
   combinations at a tremendous rate.
@@ -209,8 +213,8 @@ Research still baking.
 <!-- The reality is that there has not been any known follow-ups on my causal
 inference work yet. There is some in progress work by my colleagues and I at
 UC Berkeley. However, this is the most recent and most difficult set of problems
-I considered in my dissertation, and it's not surprising that few attacks have
-been launched on it.-->
+I considered in my dissertation, and I'm not surprising that few successful applications and follow-ups have
+been completed so far.-->
 
 ---
 
