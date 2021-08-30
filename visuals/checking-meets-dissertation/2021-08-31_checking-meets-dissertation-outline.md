@@ -334,7 +334,9 @@ and we need to simulate from a distribution of the model parameters.
 As a frequentist, you might have a maximum likelihood estimate from your model,
 and so you might simulate from the parameters' asymptotic sampling distribution,
 so a normal distribution, centered at the maximum likelihood estimate
-and using the negative inverse of the hessian as the covariance matrix.
+and using the negative inverse of the hessian,
+around the maximum likelihood estimate,
+as the covariance matrix.
 
 ---
 
@@ -342,8 +344,10 @@ and using the negative inverse of the hessian as the covariance matrix.
 
 See 2020-04-09_Model Checking slide 16.
 
-The hope is to copy the slide contents exactly,
-and the slide sub-headings somewhat (e.g. leave out “in-detail”).
+Alternatively, if one doesn't want to make as many inferential assumptions,
+one might bootstrap the estimation to provide samples from
+the 'bootstrap' distribution as an approximate
+sampling distribution or approximate posterior distribution.
 
 ---
 
@@ -351,8 +355,10 @@ and the slide sub-headings somewhat (e.g. leave out “in-detail”).
 
 See 2020-04-09_Model Checking slide 17.
 
-The hope is to copy the slide contents exactly,
-and the slide sub-headings somewhat (e.g. leave out “in-detail”).
+Of if you're using Bayesian estimation methods,
+you can directly sample from your approximate posterior distribution.
+
+Sampling technique aside, you collect a set of simulated model parameters.
 
 ---
 
@@ -360,8 +366,10 @@ and the slide sub-headings somewhat (e.g. leave out “in-detail”).
 
 See 2020-04-09_Model Checking slide 18.
 
-The hope is to copy the slide contents exactly,
-and the slide sub-headings somewhat (e.g. leave out “in-detail”).
+Once you have a set of simulated model paramters,
+we'll want to predict the choice probabilities
+for the observations in one's dataset,
+using each of the simulated model parameters.
 
 ---
 
@@ -369,8 +377,9 @@ and the slide sub-headings somewhat (e.g. leave out “in-detail”).
 
 See 2020-04-09_Model Checking slide 19.
 
-The hope is to copy the slide contents exactly,
-and the slide sub-headings somewhat (e.g. leave out “in-detail”).
+Once all of the predictions have been made,
+we'll now want to simulate a choice for each individual,
+for each set of predicted probabilities from the previous step.
 
 ---
 
@@ -378,8 +387,12 @@ and the slide sub-headings somewhat (e.g. leave out “in-detail”).
 
 See 2020-04-09_Model Checking slide 20.
 
-The hope is to copy the slide contents exactly,
-and the slide sub-headings somewhat (e.g. leave out “in-detail”).
+Once we have the sets of simulated choices,
+we'll want to define a way of assessing differences betweeen each model's choir
+of simulated choices and reality.
+This assessment tool is known as the test statistic.
+The test statistic can really be anything, but as a simple example,
+imagine the share of observations choosing some fictitious Y = 1 when X = 1.
 
 ---
 
@@ -387,8 +400,9 @@ and the slide sub-headings somewhat (e.g. leave out “in-detail”).
 
 See 2020-04-09_Model Checking slide 21.
 
-The hope is to copy the slide contents exactly,
-and the slide sub-headings somewhat (e.g. leave out “in-detail”).
+We use this test statistic by calculating it once using each of the sets of
+simulated choices Y_sim.
+This provides a background against which to judge the observed choices.
 
 ---
 
@@ -396,14 +410,24 @@ and the slide sub-headings somewhat (e.g. leave out “in-detail”).
 
 See 2020-04-09_Model Checking slide 22.
 
-The hope is to copy the slide contents exactly,
-and the slide sub-headings somewhat (e.g. leave out “in-detail”).
+This judgement is carried out by calculating the test statistic using the
+observed choices as well.
+We can then visually and/or analytically compare T(X, Y_obs) to T(X, Y_sim).
 
 ---
 
 ## Example: Checking SwissMetro
 
 Dataset & choice situation description
+
+As a familiar example,
+let's consider the SwissMetro dataset of Bierlaire et al. (2001).
+
+In the context of choosing automobile, train, and SwissMetro maglev trains,
+we'll look at three models:
+- the nested logit model of Bierlaire et al.
+- the uneven logit model using the same utility functions as the nested logit,
+- a random forest model
 
 CITATION: Link to code/repository/notebooks.
 
@@ -429,9 +453,12 @@ Code-generated image to be talked about.
 
 ## Recap and future directions
 
-- hard problems + fiscal opportunity is driving stats + ML + choice modelling
+- hard & interesting problems + fiscal opportunity
+  are driving stats + ML + choice modelling
 - lets welcome stats and machine learning via creations of
   pot-of-soup + spice + spoon.
 - use model-checking to understand the modeling creations that we cook up.
+  See my package checkrs for in-progress code to facilitate various types of
+  model checking.
 
 ---
