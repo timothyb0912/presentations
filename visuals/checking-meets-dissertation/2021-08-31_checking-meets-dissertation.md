@@ -141,5 +141,3 @@ https://bit.ly/3h5R4aX
 ---
 
 <img src="https://raw.githubusercontent.com/timothyb0912/presentations/iatbr-model-checking/visuals/assets/checking-dissertation/slide-35.jpg" style="height: 400px; border:none;"></img>
-
----
