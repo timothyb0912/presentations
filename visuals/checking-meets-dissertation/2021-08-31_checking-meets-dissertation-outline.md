@@ -36,11 +36,19 @@ please hold questions till the end.
 
 ## What motivates the disciplinary mix? (problems)
 
-I believe that the mix is partially driven by the hard and complex
-choice problems being faced in industry, e.g. the choice of:
+Looking back on my dissertation,
+the first reflective question that comes to mind is
+what has been motivating the mix of
+statistics, machine learning and discrete choice?
+
+I see at least 3 answers.
+
+One motivator is interesting industrial choice problems, e.g. the choice of:
   - words, e.g. content-generation/support-chatbot, huggingface.co
   - location, e.g. yelp
   - clothing, e.g. stitchfix
+
+These problems attract researchers from fields considered more "boring."
 
 <!-- Perhaps three sets of image/icon pairs?
 Something generic for word/location/clothing + corporate icons next to it? -->
@@ -50,8 +58,9 @@ Something generic for word/location/clothing + corporate icons next to it? -->
 ## What motivates the disciplinary mix? (opportunities)
 
 Beyond inherently interesting applications,
-there is money to be made by accurately modelling choices,
-so all quantitative disciplines have joined the party.
+a second motivator is the lucrative business opportunities that are created
+by accurately modelling choices.
+The prospect of money brings all quantitative disciplines to join the party.
 
 <!-- All quantitative disciplines now interested in modeling choices -->
 <!-- maybe an image of money partying? -->
@@ -60,10 +69,14 @@ so all quantitative disciplines have joined the party.
 
 ## What motivates the disciplinary mix? (questions)
 
-- Immediate and interesting methodological questions are:
-  - how to adapt 'non-choice-specific' quantitative methods to choice modelling,
-    like using a coffee-maker to cook one's hot-dogs,
-  - further, how to understand, appreciate, and assess unfamiliar adaptations?
+Lastly,
+there are immediate and interesting methodological questions
+that draw researchers to this intersection as well.
+
+For instance:
+- how to adapt 'non-choice-specific' quantitative methods to choice modelling,
+  like using a coffee-maker to cook one's hot-dogs,
+- further, how to understand, appreciate, and assess unfamiliar adaptations?
   <!-- how to promote and permit diversity, that is, -->
 
 <!-- Maybe two images. One for adaptation / overcoming functional-fixedness.
@@ -73,15 +86,25 @@ so all quantitative disciplines have joined the party.
 
 ## How did my dissertation contribute? (Overall)
 
-By modelling the following pattern and adaptation strategy:
+Alright,
+now knowing some of the fundamental questions driving the fields' mixing,
+how did my dissertation contribute?
+
+Overall, my dissertation modeled the following pattern and adaptation strategy
+(yes, all-puns intended):
 - starting with a
-  - substantive choice modelling problem and
+  - substantive choice modelling problem (i.e. a pot) and
   - unsolved, technical problem with current choice models
 - interesting quantitative ideas from outside of choice modelling
+  to spice up the work
 - customizing the
-  - microeconomic interpretation / generation / recreation of the methods
-  - implementation of general idea
+  - **microeconomic interpretation** / generation / recreation of the methods
+  - **implementation** of general idea
     to ameliorate the technical choice modelling problem
+
+The end result was
+"The Holy Trinity: Blending Statistics, Machine Learning, and Discrete Choice,
+with Applications to Strategic Bicycle Planning" (2018).
 
 <!-- I imagine three images with captions.
   A big pot/bowl for cooking soup or a cauldron.
@@ -100,13 +123,21 @@ University of California, Berkeley, 2018.
 
 ## How did my dissertation contribute? (Statistics)
 
+Looking at specific contributions, we can start with statistics.
+Here,
+
 - pot/cauldron = low percentage of bicyclists
   (i.e. class imbalance ~ undesired modeling outcomes)
 - spice = asymmetric link functions
   (i.e. allow for generative processes with differential rates of
   adoption and abandonment to 'explain' / model class imbalance)
 - spoon = multinomial implementation
-  (because typical choice modelling contexts have more than 2 choices)
+  (because typical choice modelling contexts have more than 2 choices,
+  but the asymmetric models in statistics only allowed for binary outcomes)
+
+The outcome of this effort was the paper
+"Asymmetric, closed-form, finite-parameter models of multinomial choice."
+Journal of Choice Modelling, (2018).
 
 <!-- I'm imagining three images with caption (use wording above).
    pot = arrow-down, percentage sign, bicycle image
@@ -123,10 +154,18 @@ Journal of choice modelling 29 (2018): 78-112.
 
 ## How did my dissertation contribute? (Machine Learning)
 
+Moving to machine learning, here:
+
 - pot/cauldron = (reported) non-compensatory bicycle choice behavior
+  vs traditionally compensatory choice models
 - spice = decision trees
 - spoon = bayesian model trees
   to capture a notion of uncertainty in estimated non-compensatory behavior
+  and clear econometric interpretability
+
+The outcome of this work is the pre-print,
+"Machine learning meets microeconomics:
+The case of decision trees and discrete choice." ArXiv, (2017).
 
 <!-- I'm imagining three images with caption (use wording above).
    pot = drake [meme](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.ujpgnl14FmLIiCaomE7WgQAAAA%26pid%3DApi&f=1) where no = car and yes = bicycle
@@ -143,11 +182,18 @@ arXiv preprint arXiv:1711.04826 (2017).
 
 ## How did my dissertation contribute? (Causal Inference)
 
-- pot/cauldron = (bicycle-infrastructure) intervention goals
-  we want causal predictions not just associations
-- spice = causal graphical models as perspective for performing model-based
-  causal inference in a clear and systematic manner.
-- spoon = latent variable modelling (and suggesting of)
+Lastly, we come to causal inference.
+
+Here,
+- pot/cauldron = (bicycle-infrastructure) goals, where we want
+  causal predictions not just associations as we will be intervening
+- spice = causal graphical models as closest perspective
+  for performing model-based causal inference in a clear and systematic manner.
+- spoon = latent variable modelling (and suggesting of) to deal with
+  unobserved confounding issues likely in econometric contexts
+
+This work resulted in the paper "Causal inference in travel demand
+modeling (and the lack thereof)." Journal of choice modelling (2018).
 
 <!-- I'm imagining three images with caption (use wording above).
    pot = aerial street design image
@@ -165,10 +211,10 @@ modeling (and the lack thereof)." Journal of choice modelling 26 (2018): 1-18.
 
 After demonstrating the research pattern in my dissertation,
 it's natural to wonder what follow up research has occurred.
-In statistics:
+Regarding my statistical contributions, there've been a couple of applications:
 
 Applications
-- Route Choice
+- Route Choice [Covariate-dependent asymmetric models]
 	Associate Professor Dawei Li et al. (in preparation), Southeast University
 - Auto vs Rail vs Air Travel Mode Choice [Latent class + asymmetric models]
   Tinessa, Fiore, et al.
@@ -182,7 +228,9 @@ Applications
 
 ## What follow-up research has occurred? (Machine Learning)
 
-<!-- Not much occurred with trees and their econometric interpretations, but there's been a successful
+<!-- Turning to machine learning,
+  we see that not much occurred with trees & their econometric interpretations.
+  However, there's been a successful
   Rise of the (Neural) Nets: Choice modeller's working with neural networks have
   followed the adaptation strategy described earlier and are producing novel
   combinations at a tremendous rate.
@@ -210,35 +258,49 @@ Oops! Not much to see here.
 
 Research still baking.
 
-<!-- The reality is that there has not been any known follow-ups on my causal
-inference work yet. There is some in progress work by my colleagues and I at
-UC Berkeley. However, this is the most recent and most difficult set of problems
-I considered in my dissertation, and I'm not surprising that few successful applications and follow-ups have
+<!-- Finally, we come to follow-ups to my causal inference work.
+The reality is that there have not been any known follow-ups on this work yet.
+There is some in progress work by my colleagues and I at UC Berkeley.
+Given that causal inference issues are the most recent and most difficult
+set of problems that I considered in my dissertation,
+I'm not surprised that few successful applications and extensions have
 been completed so far.-->
 
 ---
 
 ## How have the topics aged? (Overall)
 
-- Relevance/usefulness of ideas remain
+As shown by the application results of asymmetric choice models,
+and as shown by research results obtained following the general process
+outlined earlier, the present usefulness of the ideas in my dissertation remain.
+
+Looking ahead, the commonality of class imbalance problems,
+and the profits to be gained from more accurate predictive and causal models,
+are combining to ensure that the choice modelling opportunities that I described
+in my dissertation will remain as important or moreso,
+for some time into the future.
+
+<!-- - Relevance/usefulness of ideas remain
   as shown by
   - application results,
   - research results following the same process, and
   - class imbalance commonality.
 - Choice modelling opportunities remain
-  (as highlighted in future work sections of each paper)--since industrially, there is much to be gained now from:
+  (as highlighted in future work sections of each paper)--since industrially,
+  there is much to be gained now from:
   - accurate predictive models
-  - credible causal models
+  - credible causal models -->
 
 ---
 
 ## How have the topics aged? (The Bad)
 
-When considering the particulars of what has not gone well
-with the aging of my dissertation's efforts,
-implementation difficulties have hindered adoption of:
+Now, we can also consider the particulars of what has not aged well
+from my dissertation.
 
-- Usage of custom asymmetric choice models.
+Across the board, implementation difficulties have hindered adoption of:
+
+- **custom** asymmetric choice models.
 - Trees with econometric interpretations and concerns.
 - credible causal graphical models,
   especially with latent variables.
@@ -247,16 +309,18 @@ implementation difficulties have hindered adoption of:
 
 ## How have the topics aged? (The Good)
 
-The good is that ongoing work related to my dissertation includes
-- Accelerating neural network research on the index function of choice models,
-  as a complement to my asymmetric link function work,
-- Foundational / enabling work in
-  machine learning, statistics, and causal inference
+And, for balance, here are some good fruit of my dissertation's aged tree:
+- In statistics,
+  a choice model is specified by a link function and an index function.
+  From this perspective,
+  the accelerating neural network research concerns the index function,
+  and this complements my (asymmetric) link function work.
+- In machine learning and causal inference,
+  there is foundational / enabling continuous-optimization work
   - with trees
-    (neural network adaptations enabling
-    continuous-optimization and easier uncertainty-quantification)
+    (neural network adaptations and uncertainty-quantification)
   - with causal graphical models
-    (continuous-optimization for discovery + theory)
+    (causal discovery + theory)
 
 This is all super exciting and paves the way for future
 connections to and research from choice modellers.
@@ -266,13 +330,14 @@ connections to and research from choice modellers.
 ## How to make sense of it all? (original)
 
 > Of course, with all this research going on,
-> we need a way to understand everything.
+> we need a way to make sense of it all,
+> to understand everything.
 
 > Originally, during my dissertation
 > I'd suggest learning all fields then translating.
 
 > But truthfully, after working in industry,
-> it's clear that's too slow and unreasonable.
+> it's clear that this is too slow and unreasonable.
 > Ain't nobody got time for that!
 
 - Learn + Translate all three fields? -> No.
@@ -284,20 +349,25 @@ juxtaposed with the “ain’t nobody got time for that” slogan or meme/image 
 
 ## How to make sense of it all? (modern) [2min]
 
-So now, the modern approach I suggest to understand
+Nowadays, the modern approach I suggest to understand
 choice modelling work from all quantitative disciplines is to
 perform
-- Simulation-based model checking
-  (competing analogies w/ most-preferred first, though both are accurate):
-  - Overall,
-    listen to a constant soloist against varying choirs.
-    Here, reality is the constant soloist.
-    Each model supplies its own chorus of simulated realities.
-    To assess and understand differences between models,
-    we play each model one by one, and
-    we assess differences in how each chorus harmonizes with reality's soloist.
+- Simulation-based model checking:
+  Metaphorically,
+  the idea is listen to a constant soloist against varying choirs.
+  Here, reality is the constant soloist.
+  Each model supplies its own chorus of simulated realities.
+  To assess and understand differences between models,
+  we play each model one by one, and
+  we assess differences in how each chorus harmonizes with reality's soloist.
   <!-- - Look at a common picture under varying lights.
     View reality before a backdrop of model simulations from any field's models. -->
+
+The specifics along with tons of examples and code and discussion,
+is available in my paper
+"Check yourself before you wreck yourself:
+assessing discrete choice models through predictive simulations,"
+available as a preprint on ArXiv and on GitHub at the links shown on the screen.
 
 Citation:
 Brathwaite, Timothy. "Check yourself before you wreck yourself:
@@ -309,10 +379,9 @@ https://github.com/timothyb0912/check-yourself
 
 ## What is simulation-based model checking?
 
-See https://cicero.xyz/v3/remark/0.14.0/github.com/timothyb0912/presentations/stable/visuals/how-not-to-integrate-ml-and-dcm/2021-03-19_how-not-to-integrate-ml-and-dcm.md/#23
+<!-- See https://cicero.xyz/v3/remark/0.14.0/github.com/timothyb0912/presentations/stable/visuals/how-not-to-integrate-ml-and-dcm/2021-03-19_how-not-to-integrate-ml-and-dcm.md/#23 -->
 
-Here's what I mean, technically,
-by simulation-based model checking.
+Technically, here's what I mean by simulation-based model checking.
 The overall process is that we have explanatory variables X,
 people's choice-making process, and the outcomes or choices Y.
 We build a model to mimic individuals' choice processes,
@@ -323,9 +392,9 @@ We then ask how similar Y_sim is to Y.
 
 ## How to check your models (step 1--frequentist)
 
-See 2020-04-09_Model Checking slide 15.
+<!-- See 2020-04-09_Model Checking slide 15. -->
 
-Let's step through this one at a time.
+Let's go through this one step at a time.
 We have a model.
 All models have parameters.
 We estimate the model somehow,
@@ -342,10 +411,10 @@ as the covariance matrix.
 
 ## How to check your models (step 1--computational)
 
-See 2020-04-09_Model Checking slide 16.
+<!-- See 2020-04-09_Model Checking slide 16. -->
 
-Alternatively, if one doesn't want to make as many inferential assumptions,
-one might bootstrap the estimation to provide samples from
+Alternatively, if you doesn't want to make as many inferential assumptions,
+you might bootstrap the estimation to provide samples from
 the 'bootstrap' distribution as an approximate
 sampling distribution or approximate posterior distribution.
 
@@ -353,7 +422,7 @@ sampling distribution or approximate posterior distribution.
 
 ## How to check your models (step 1--bayesian)
 
-See 2020-04-09_Model Checking slide 17.
+<!-- See 2020-04-09_Model Checking slide 17. -->
 
 Of if you're using Bayesian estimation methods,
 you can directly sample from your approximate posterior distribution.
@@ -364,90 +433,117 @@ Sampling technique aside, you collect a set of simulated model parameters.
 
 ## How to check your models (step 2)
 
-See 2020-04-09_Model Checking slide 18.
+<!-- See 2020-04-09_Model Checking slide 18. -->
 
 Once you have a set of simulated model paramters,
 we'll want to predict the choice probabilities
 for the observations in one's dataset,
-using each of the simulated model parameters.
+using each of the r simulated model parameters.
 
 ---
 
 ## How to check your models (step 3)
 
-See 2020-04-09_Model Checking slide 19.
+<!-- See 2020-04-09_Model Checking slide 19. -->
 
-Once all of the predictions have been made,
+After all of the predictions have been made,
 we'll now want to simulate a choice for each individual,
-for each set of predicted probabilities from the previous step.
+for each set of r predicted probabilities from the previous step.
 
 ---
 
 ## How to check your models (step 4)
 
-See 2020-04-09_Model Checking slide 20.
+<!-- See 2020-04-09_Model Checking slide 20. -->
 
-Once we have the sets of simulated choices,
+Once we have the r sets of simulated choices,
 we'll want to define a way of assessing differences betweeen each model's choir
 of simulated choices and reality.
+
 This assessment tool is known as the test statistic.
-The test statistic can really be anything, but as a simple example,
-imagine the share of observations choosing some fictitious Y = 1 when X = 1.
+
+The test statistic can really be anything, scalar or vector valued,
+but as a simple example,
+imagine the share of observations choosing some fictitious Y = 1
+when scalar X = 1.
 
 ---
 
 ## How to check your models (step 5)
 
-See 2020-04-09_Model Checking slide 21.
+<!-- See 2020-04-09_Model Checking slide 21. -->
 
-We use this test statistic by calculating it once using each of the sets of
-simulated choices Y_sim.
+Next, we use this test statistic by calculating it once using each of the r
+vectors of simulated choices.
 This provides a background against which to judge the observed choices.
 
 ---
 
 ## How to check your models (step 6)
 
-See 2020-04-09_Model Checking slide 22.
+<!-- See 2020-04-09_Model Checking slide 22. -->
 
-This judgement is carried out by calculating the test statistic using the
-observed choices as well.
-We can then visually and/or analytically compare T(X, Y_obs) to T(X, Y_sim).
-
----
-
-## Example: Checking SwissMetro
-
-Dataset & choice situation description
-
-As a familiar example,
-let's consider the SwissMetro dataset of Bierlaire et al. (2001).
-
-In the context of choosing automobile, train, and SwissMetro maglev trains,
-we'll look at three models:
-- the nested logit model of Bierlaire et al.
-- the uneven logit model using the same utility functions as the nested logit,
-- a random forest model
-
-CITATION: Link to code/repository/notebooks.
+Finally, we assess the correspondence of simulated to observed choices
+by calculating the test statistic using the observed choices.
+We can then visually and/or computationally compare T(X, Y_obs) to T(X, Y_sim).
 
 ---
 
-## SwissMetro backgrounds (Example 1)
+## What's the intuition? (bridge + high-level)
 
-Code-generated image to be talked about.
+Alright, I know that was a lot.
+Usually, I'd show you an example now to illustrate all those steps.
+Not today. I'll delay any examples for a moment.
+
+Instead, I'll present the intuition behind this perspective.
+- Model checking is analogous to mass spectrometry.
+  In both cases we want to characterize the compounds we are working with.
+- Models are analogous to molecules.
+- Simulated choices given off by our model are analogous
+  to ions given off by the molecules.
 
 ---
 
-## SwissMetro backgrounds (Example 2)
+## What's the intuition (test-statistics)
 
-Code-generated image to be talked about.
+Going further,
+
+- test statistics are analogous to physical properties such as the ions' mass
 
 ---
 
-## SwissMetro backgrounds (Example 3)
+## What's the intuition (spectral diagrams)
 
-Code-generated image to be talked about.
+And
+
+- Model checking plots are analogous to spectral diagrams
+  In both cases we plot the measured properties of derivative objects
+  (simulated choices or ions)
+
+---
+
+## What's the intuition (comparing spectral diagrams)
+
+So while,
+
+- comparing spectral diagrams is one way to see differences between molecules
+
+---
+
+## What's the intuition (comparing model checking plots)
+
+- analogously, comparing model checking plots is one way to see
+  (and understand) differences between models
+
+---
+
+## What's the intuition (using multiple test statistics)
+
+Lastly,
+
+- using multiple test statistics highlights multiple properties of our models,
+  much like measuring a person's height, mass, and flexibility instead of one,
+  thereby promoting greater understanding.
 
 ---
 
